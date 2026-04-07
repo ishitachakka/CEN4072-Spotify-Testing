@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Spotify Test Suite">
+
+    <test name="Ishita - Home Page Tests">
+        <classes>
+            <class name="SpotifyHomePageTest"/>
+        </classes>
+    </test>
+
+    <test name="Ishita - Search Tests">
+        <classes>
+            <class name="SpotifySearchTest"/>
+        </classes>
+    </test>
+
+    <test name="Ishita - Login Page Tests">
+        <classes>
+            <class name="SpotifyLoginPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Ishita - Signup Page Tests">
+        <classes>
+            <class name="SpotifySignupPageTest"/>
+        </classes>
+    </test>
+
+    <!-- Gabriella's classes go here once she pushes -->
+    <!--
+    <test name="Gabriella - Navigation Tests">
+        <classes>
+            <class name="SpotifyNavigationTest"/>
+        </classes>
+    </test>
+
+    <test name="Gabriella - Premium Page Tests">
+        <classes>
+            <class name="SpotifyPremiumPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Gabriella - Download Page Tests">
+        <classes>
+            <class name="SpotifyDownloadPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Gabriella - Accessibility Tests">
+        <classes>
+            <class name="SpotifyAccessibilityTest"/>
+        </classes>
+    </test>
+    -->
+
+</suite>
