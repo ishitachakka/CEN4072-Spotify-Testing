@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Spotify_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Spotify Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Spotify_Test_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Spotify_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Spotify_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Spotify_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Spotify_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Spotify_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Spotify_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 1 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Spotify_Test_Suite" class="hide-methods failed suite-Spotify_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Spotify_Test_Suite -->
+                      <a href="#" panel-name="suite-Spotify_Test_Suite" class="show-methods failed suite-Spotify_Test_Suite"> (show)</a> <!-- show-methods failed suite-Spotify_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Spotify_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyLoginPageTest" class="method navigator-link" hash-for-method="testPasswordFieldPresent">testPasswordFieldPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Spotify_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Spotify_Test_Suite" class="hide-methods passed suite-Spotify_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Spotify_Test_Suite -->
+                      <a href="#" panel-name="suite-Spotify_Test_Suite" class="show-methods passed suite-Spotify_Test_Suite"> (show)</a> <!-- show-methods passed suite-Spotify_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Spotify_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySignupPageTest" class="method navigator-link" hash-for-method="testEmailFieldPresent">testEmailFieldPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyHomePageTest" class="method navigator-link" hash-for-method="testHomePageLoadsSuccessfully">testHomePageLoadsSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyHomePageTest" class="method navigator-link" hash-for-method="testHomePageTitle">testHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyHomePageTest" class="method navigator-link" hash-for-method="testHomePageURL">testHomePageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyHomePageTest" class="method navigator-link" hash-for-method="testLoginButtonPresent">testLoginButtonPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyLoginPageTest" class="method navigator-link" hash-for-method="testLoginButtonPresent">testLoginButtonPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyLoginPageTest" class="method navigator-link" hash-for-method="testLoginPageIsHTTPS">testLoginPageIsHTTPS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyLoginPageTest" class="method navigator-link" hash-for-method="testLoginPageLoads">testLoginPageLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyLoginPageTest" class="method navigator-link" hash-for-method="testLoginPageURL">testLoginPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyHomePageTest" class="method navigator-link" hash-for-method="testPageNotEmpty">testPageNotEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySearchTest" class="method navigator-link" hash-for-method="testSearchPageHTTPS">testSearchPageHTTPS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySearchTest" class="method navigator-link" hash-for-method="testSearchPageLoads">testSearchPageLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySearchTest" class="method navigator-link" hash-for-method="testSearchPageNotEqualToHome">testSearchPageNotEqualToHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySearchTest" class="method navigator-link" hash-for-method="testSearchPageTitle">testSearchPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySearchTest" class="method navigator-link" hash-for-method="testSearchPageURL">testSearchPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySearchTest" class="method navigator-link" hash-for-method="testSearchURLContainsSearch">testSearchURLContainsSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyHomePageTest" class="method navigator-link" hash-for-method="testSignupButtonPresent">testSignupButtonPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySignupPageTest" class="method navigator-link" hash-for-method="testSignupPageIsHTTPS">testSignupPageIsHTTPS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySignupPageTest" class="method navigator-link" hash-for-method="testSignupPageLoads">testSignupPageLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySignupPageTest" class="method navigator-link" hash-for-method="testSignupPageURL">testSignupPageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySignupPageTest" class="method navigator-link" hash-for-method="testSignupTitleContainsSpotify">testSignupTitleContainsSpotify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifySignupPageTest" class="method navigator-link" hash-for-method="testSignupURLNotEqualToLogin">testSignupURLNotEqualToLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Spotify_Test_Suite" title="SpotifyLoginPageTest" class="method navigator-link" hash-for-method="testUsernameFieldPresent">testUsernameFieldPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Spotify_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Spotify_Test_Suite" class="panel Spotify_Test_Suite">
+          <div class="suite-Spotify_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">SpotifyLoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordFieldPresent">
+                  </a> <!-- testPasswordFieldPresent -->
+                  <span class="method-name">testPasswordFieldPresent</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;password&apos; or @data-testid=&apos;login-password&apos; or @name=&apos;password&apos;]&quot;}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed1088ad3a2e6366f9dd139058b83939, findElement {using=xpath, value=//input[@type=&apos;password&apos; or @data-testid=&apos;login-password&apos; or @name=&apos;password&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57769}, goog:processID: 89248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57769/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed1088ad3a2e6366f9dd139058b83939
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at SpotifyLoginPageTest.testPasswordFieldPresent(SpotifyLoginPageTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Spotify_Test_Suite-class-failed -->
+          <div class="suite-Spotify_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SpotifySignupPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmailFieldPresent">
+                  </a> <!-- testEmailFieldPresent -->
+                  <span class="method-name">testEmailFieldPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupPageIsHTTPS">
+                  </a> <!-- testSignupPageIsHTTPS -->
+                  <span class="method-name">testSignupPageIsHTTPS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupPageLoads">
+                  </a> <!-- testSignupPageLoads -->
+                  <span class="method-name">testSignupPageLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupPageURL">
+                  </a> <!-- testSignupPageURL -->
+                  <span class="method-name">testSignupPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupTitleContainsSpotify">
+                  </a> <!-- testSignupTitleContainsSpotify -->
+                  <span class="method-name">testSignupTitleContainsSpotify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupURLNotEqualToLogin">
+                  </a> <!-- testSignupURLNotEqualToLogin -->
+                  <span class="method-name">testSignupURLNotEqualToLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Spotify_Test_Suite-class-passed -->
+          <div class="suite-Spotify_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SpotifyHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomePageLoadsSuccessfully">
+                  </a> <!-- testHomePageLoadsSuccessfully -->
+                  <span class="method-name">testHomePageLoadsSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomePageTitle">
+                  </a> <!-- testHomePageTitle -->
+                  <span class="method-name">testHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomePageURL">
+                  </a> <!-- testHomePageURL -->
+                  <span class="method-name">testHomePageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginButtonPresent">
+                  </a> <!-- testLoginButtonPresent -->
+                  <span class="method-name">testLoginButtonPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPageNotEmpty">
+                  </a> <!-- testPageNotEmpty -->
+                  <span class="method-name">testPageNotEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupButtonPresent">
+                  </a> <!-- testSignupButtonPresent -->
+                  <span class="method-name">testSignupButtonPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Spotify_Test_Suite-class-passed -->
+          <div class="suite-Spotify_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SpotifyLoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginButtonPresent">
+                  </a> <!-- testLoginButtonPresent -->
+                  <span class="method-name">testLoginButtonPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageIsHTTPS">
+                  </a> <!-- testLoginPageIsHTTPS -->
+                  <span class="method-name">testLoginPageIsHTTPS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageLoads">
+                  </a> <!-- testLoginPageLoads -->
+                  <span class="method-name">testLoginPageLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageURL">
+                  </a> <!-- testLoginPageURL -->
+                  <span class="method-name">testLoginPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUsernameFieldPresent">
+                  </a> <!-- testUsernameFieldPresent -->
+                  <span class="method-name">testUsernameFieldPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Spotify_Test_Suite-class-passed -->
+          <div class="suite-Spotify_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SpotifySearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchPageHTTPS">
+                  </a> <!-- testSearchPageHTTPS -->
+                  <span class="method-name">testSearchPageHTTPS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchPageLoads">
+                  </a> <!-- testSearchPageLoads -->
+                  <span class="method-name">testSearchPageLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchPageNotEqualToHome">
+                  </a> <!-- testSearchPageNotEqualToHome -->
+                  <span class="method-name">testSearchPageNotEqualToHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchPageTitle">
+                  </a> <!-- testSearchPageTitle -->
+                  <span class="method-name">testSearchPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchPageURL">
+                  </a> <!-- testSearchPageURL -->
+                  <span class="method-name">testSearchPageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchURLContainsSearch">
+                  </a> <!-- testSearchURLContainsSearch -->
+                  <span class="method-name">testSearchURLContainsSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Spotify_Test_Suite-class-passed -->
+        </div> <!-- panel Spotify_Test_Suite -->
+        <div panel-name="test-xml-Spotify_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Spotify Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Ishita - Home Page Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SpotifyHomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ishita - Home Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Ishita - Search Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SpotifySearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ishita - Search Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Ishita - Login Page Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SpotifyLoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ishita - Login Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Ishita - Signup Page Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SpotifySignupPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ishita - Signup Page Tests --&gt;
+&lt;/suite&gt; &lt;!-- Spotify Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Spotify_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Spotify Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Ishita - Home Page Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ishita - Search Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ishita - Login Page Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ishita - Signup Page Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Spotify_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Spotify Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Spotify_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Spotify Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Spotify_Test_Suite');
+function tableData_Spotify_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPasswordFieldPresent')
+data.setCell(0, 2, 'SpotifyLoginPageTest')
+data.setCell(0, 3, 13185);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSignupPageLoads')
+data.setCell(1, 2, 'SpotifySignupPageTest')
+data.setCell(1, 3, 9571);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSearchPageNotEqualToHome')
+data.setCell(2, 2, 'SpotifySearchTest')
+data.setCell(2, 3, 4643);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testHomePageTitle')
+data.setCell(3, 2, 'SpotifyHomePageTest')
+data.setCell(3, 3, 4551);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSignupURLNotEqualToLogin')
+data.setCell(4, 2, 'SpotifySignupPageTest')
+data.setCell(4, 3, 4550);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLoginPageLoads')
+data.setCell(5, 2, 'SpotifyLoginPageTest')
+data.setCell(5, 3, 4062);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSearchPageURL')
+data.setCell(6, 2, 'SpotifySearchTest')
+data.setCell(6, 3, 3484);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testEmailFieldPresent')
+data.setCell(7, 2, 'SpotifySignupPageTest')
+data.setCell(7, 3, 3264);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLoginPageIsHTTPS')
+data.setCell(8, 2, 'SpotifyLoginPageTest')
+data.setCell(8, 3, 3255);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSignupPageURL')
+data.setCell(9, 2, 'SpotifySignupPageTest')
+data.setCell(9, 3, 3241);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLoginButtonPresent')
+data.setCell(10, 2, 'SpotifyLoginPageTest')
+data.setCell(10, 3, 3217);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSignupTitleContainsSpotify')
+data.setCell(11, 2, 'SpotifySignupPageTest')
+data.setCell(11, 3, 3192);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSignupPageIsHTTPS')
+data.setCell(12, 2, 'SpotifySignupPageTest')
+data.setCell(12, 3, 3190);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testLoginPageURL')
+data.setCell(13, 2, 'SpotifyLoginPageTest')
+data.setCell(13, 3, 3189);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testUsernameFieldPresent')
+data.setCell(14, 2, 'SpotifyLoginPageTest')
+data.setCell(14, 3, 3161);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testPageNotEmpty')
+data.setCell(15, 2, 'SpotifyHomePageTest')
+data.setCell(15, 3, 2527);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSearchPageLoads')
+data.setCell(16, 2, 'SpotifySearchTest')
+data.setCell(16, 3, 2436);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testLoginButtonPresent')
+data.setCell(17, 2, 'SpotifyHomePageTest')
+data.setCell(17, 3, 2366);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testHomePageLoadsSuccessfully')
+data.setCell(18, 2, 'SpotifyHomePageTest')
+data.setCell(18, 3, 2364);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testHomePageURL')
+data.setCell(19, 2, 'SpotifyHomePageTest')
+data.setCell(19, 3, 2364);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSearchPageTitle')
+data.setCell(20, 2, 'SpotifySearchTest')
+data.setCell(20, 3, 2346);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testSearchPageHTTPS')
+data.setCell(21, 2, 'SpotifySearchTest')
+data.setCell(21, 3, 2343);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testSignupButtonPresent')
+data.setCell(22, 2, 'SpotifyHomePageTest')
+data.setCell(22, 3, 2310);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testSearchURLContainsSearch')
+data.setCell(23, 2, 'SpotifySearchTest')
+data.setCell(23, 3, 2257);
+window.suiteTableData['Spotify_Test_Suite']= { tableData: data, tableDiv: 'times-div-Spotify_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Spotify_Test_Suite">
+              </div> <!-- times-div-Spotify_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Spotify_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Spotify Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Spotify_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Spotify_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SpotifyHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testHomePageTitle</span>
+                <span class="method-start">1370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHomePageURL</span>
+                <span class="method-start">5923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginButtonPresent</span>
+                <span class="method-start">8289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupButtonPresent</span>
+                <span class="method-start">10655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPageNotEmpty</span>
+                <span class="method-start">12965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHomePageLoadsSuccessfully</span>
+                <span class="method-start">15494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17859 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SpotifySearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18191 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearchPageURL</span>
+                <span class="method-start">19222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchPageTitle</span>
+                <span class="method-start">22706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchPageLoads</span>
+                <span class="method-start">25053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchURLContainsSearch</span>
+                <span class="method-start">27490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchPageHTTPS</span>
+                <span class="method-start">29749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchPageNotEqualToHome</span>
+                <span class="method-start">32094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36738 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SpotifyLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37041 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoginPageLoads</span>
+                <span class="method-start">38058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginPageURL</span>
+                <span class="method-start">42121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUsernameFieldPresent</span>
+                <span class="method-start">45311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPasswordFieldPresent</span>
+                <span class="method-start">48473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginButtonPresent</span>
+                <span class="method-start">61665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginPageIsHTTPS</span>
+                <span class="method-start">64883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68138 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SpotifySignupPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">73425 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSignupPageLoads</span>
+                <span class="method-start">74413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupPageURL</span>
+                <span class="method-start">83985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmailFieldPresent</span>
+                <span class="method-start">87228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupPageIsHTTPS</span>
+                <span class="method-start">90492 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupTitleContainsSpotify</span>
+                <span class="method-start">93683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignupURLNotEqualToLogin</span>
+                <span class="method-start">96876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101427 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

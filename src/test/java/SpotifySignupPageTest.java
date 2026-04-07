@@ -29,16 +29,18 @@ public class SpotifySignupPageTest {
     }
 
     @Test(priority = 1)
-    public void testSignupPageLoads() {
+    public void testSignupPageLoads() throws InterruptedException {
         driver.get("https://www.spotify.com/us/signup");
+        Thread.sleep(3000);
         String title = driver.getTitle();
         System.out.println("Signup page title: " + title);
         Assert.assertFalse(title.isEmpty(), "Signup page title should not be empty");
     }
 
     @Test(priority = 2)
-    public void testSignupPageURL() {
+    public void testSignupPageURL() throws InterruptedException {
         driver.get("https://www.spotify.com/us/signup");
+        Thread.sleep(3000);
         String url = driver.getCurrentUrl();
         System.out.println("Signup URL: " + url);
         Assert.assertTrue(url.contains("signup"),
@@ -46,8 +48,9 @@ public class SpotifySignupPageTest {
     }
 
     @Test(priority = 3)
-    public void testEmailFieldPresent() {
+    public void testEmailFieldPresent() throws InterruptedException {
         driver.get("https://www.spotify.com/us/signup");
+        Thread.sleep(3000);
         WebElement emailField = driver.findElement(By.id("username"));
         Assert.assertTrue(emailField.isDisplayed(),
                 "Email field should be visible");
@@ -55,8 +58,9 @@ public class SpotifySignupPageTest {
     }
 
     @Test(priority = 4)
-    public void testSignupPageIsHTTPS() {
+    public void testSignupPageIsHTTPS() throws InterruptedException {
         driver.get("https://www.spotify.com/us/signup");
+        Thread.sleep(3000);
         String url = driver.getCurrentUrl();
         Assert.assertTrue(url.startsWith("https"),
                 "Signup page should be secure (HTTPS)");
@@ -64,8 +68,9 @@ public class SpotifySignupPageTest {
     }
 
     @Test(priority = 5)
-    public void testSignupTitleContainsSpotify() {
+    public void testSignupTitleContainsSpotify() throws InterruptedException {
         driver.get("https://www.spotify.com/us/signup");
+        Thread.sleep(3000);
         String title = driver.getTitle();
         Assert.assertTrue(title.toLowerCase().contains("spotify"),
                 "Signup page title should contain Spotify");
@@ -73,9 +78,13 @@ public class SpotifySignupPageTest {
     }
 
     @Test(priority = 6)
-    public void testSignupURLNotEqualToLogin() {
-        String signupUrl = "https://www.spotify.com/us/signup";
-        String loginUrl = "https://accounts.spotify.com/en/login";
+    public void testSignupURLNotEqualToLogin() throws InterruptedException {
+        driver.get("https://www.spotify.com/us/signup");
+        Thread.sleep(2000);
+        String signupUrl = driver.getCurrentUrl();
+        driver.get("https://accounts.spotify.com/en/login");
+        Thread.sleep(2000);
+        String loginUrl = driver.getCurrentUrl();
         Assert.assertNotEquals(signupUrl, loginUrl,
                 "Signup and login URLs should be different");
         System.out.println("Signup and login pages are separate — confirmed");

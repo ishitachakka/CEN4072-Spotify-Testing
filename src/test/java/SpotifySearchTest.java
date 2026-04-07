@@ -1,6 +1,5 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
@@ -29,8 +28,9 @@ public class SpotifySearchTest {
     }
 
     @Test(priority = 1)
-    public void testSearchPageURL() {
+    public void testSearchPageURL() throws InterruptedException {
         driver.get("https://open.spotify.com/search");
+        Thread.sleep(2000);
         String url = driver.getCurrentUrl();
         System.out.println("Search URL: " + url);
         Assert.assertTrue(url.contains("spotify.com"),
@@ -38,24 +38,27 @@ public class SpotifySearchTest {
     }
 
     @Test(priority = 2)
-    public void testSearchPageTitle() {
+    public void testSearchPageTitle() throws InterruptedException {
         driver.get("https://open.spotify.com/search");
+        Thread.sleep(2000);
         String title = driver.getTitle();
         System.out.println("Search page title: " + title);
         Assert.assertFalse(title.isEmpty(), "Search page title should not be empty");
     }
 
     @Test(priority = 3)
-    public void testSearchPageLoads() {
+    public void testSearchPageLoads() throws InterruptedException {
         driver.get("https://open.spotify.com/search");
+        Thread.sleep(2000);
         String bodyText = driver.findElement(By.tagName("body")).getText();
-        Assert.assertFalse(bodyText.isEmpty(), "Search page body should not be empty");
-        System.out.println("Search page loaded with content");
+        Assert.assertTrue(bodyText.length() > 0, "Search page body should have content");
+        System.out.println("Search page loaded with content, length: " + bodyText.length());
     }
 
     @Test(priority = 4)
-    public void testSearchURLContainsSearch() {
+    public void testSearchURLContainsSearch() throws InterruptedException {
         driver.get("https://open.spotify.com/search");
+        Thread.sleep(2000);
         String url = driver.getCurrentUrl();
         Assert.assertTrue(url.contains("search"),
                 "URL should contain 'search'");
@@ -63,8 +66,9 @@ public class SpotifySearchTest {
     }
 
     @Test(priority = 5)
-    public void testSearchPageHTTPS() {
+    public void testSearchPageHTTPS() throws InterruptedException {
         driver.get("https://open.spotify.com/search");
+        Thread.sleep(2000);
         String url = driver.getCurrentUrl();
         Assert.assertTrue(url.startsWith("https"),
                 "Search page should load over HTTPS");
@@ -72,10 +76,12 @@ public class SpotifySearchTest {
     }
 
     @Test(priority = 6)
-    public void testSearchPageNotEqualToHome() {
+    public void testSearchPageNotEqualToHome() throws InterruptedException {
         driver.get("https://open.spotify.com/search");
+        Thread.sleep(2000);
         String searchUrl = driver.getCurrentUrl();
         driver.get("https://open.spotify.com");
+        Thread.sleep(2000);
         String homeUrl = driver.getCurrentUrl();
         Assert.assertNotEquals(searchUrl, homeUrl,
                 "Search URL should be different from home URL");

@@ -29,8 +29,9 @@ public class SpotifyHomePageTest {
     }
 
     @Test(priority = 1)
-    public void testHomePageTitle() {
+    public void testHomePageTitle() throws InterruptedException {
         driver.get("https://open.spotify.com");
+        Thread.sleep(2000);
         String title = driver.getTitle();
         System.out.println("Page title: " + title);
         Assert.assertFalse(title.isEmpty(), "Page title should not be empty");
@@ -39,8 +40,9 @@ public class SpotifyHomePageTest {
     }
 
     @Test(priority = 2)
-    public void testHomePageURL() {
+    public void testHomePageURL() throws InterruptedException {
         driver.get("https://open.spotify.com");
+        Thread.sleep(2000);
         String url = driver.getCurrentUrl();
         System.out.println("Current URL: " + url);
         Assert.assertTrue(url.contains("spotify.com"),
@@ -48,8 +50,9 @@ public class SpotifyHomePageTest {
     }
 
     @Test(priority = 3)
-    public void testLoginButtonPresent() {
+    public void testLoginButtonPresent() throws InterruptedException {
         driver.get("https://open.spotify.com");
+        Thread.sleep(2000);
         WebElement loginBtn = driver.findElement(
                 By.xpath("//button[contains(text(),'Log in') or contains(@data-testid,'login-button')]"));
         Assert.assertTrue(loginBtn.isDisplayed(), "Login button should be visible");
@@ -57,8 +60,9 @@ public class SpotifyHomePageTest {
     }
 
     @Test(priority = 4)
-    public void testSignupButtonPresent() {
+    public void testSignupButtonPresent() throws InterruptedException {
         driver.get("https://open.spotify.com");
+        Thread.sleep(2000);
         WebElement signupBtn = driver.findElement(
                 By.xpath("//button[contains(text(),'Sign up') or contains(@data-testid,'signup-button')]"));
         Assert.assertTrue(signupBtn.isDisplayed(), "Sign up button should be visible");
@@ -66,16 +70,18 @@ public class SpotifyHomePageTest {
     }
 
     @Test(priority = 5)
-    public void testPageNotEmpty() {
+    public void testPageNotEmpty() throws InterruptedException {
         driver.get("https://open.spotify.com");
+        Thread.sleep(2000);
         String bodyText = driver.findElement(By.tagName("body")).getText();
-        Assert.assertFalse(bodyText.isEmpty(), "Page body should not be empty");
+        Assert.assertTrue(bodyText.length() > 0, "Page body should have content");
         System.out.println("Page loaded with content, length: " + bodyText.length());
     }
 
     @Test(priority = 6)
-    public void testHomePageLoadsSuccessfully() {
+    public void testHomePageLoadsSuccessfully() throws InterruptedException {
         driver.get("https://open.spotify.com");
+        Thread.sleep(2000);
         Assert.assertNotEquals(driver.getTitle(), "", "Page should have a title");
         Assert.assertTrue(driver.getCurrentUrl().startsWith("https"),
                 "Page should load over HTTPS");

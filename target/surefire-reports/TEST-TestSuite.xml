@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="110.49" tests="24" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="surefire.suiteXmlFiles" value="testng.xml"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="/Users/ishitachakkalakkal/Documents/Software Testing/SeleniumDrivers/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/test-classes:/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/classes:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ishitachakkalakkal/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/ishitachakkalakkal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ishitachakkalakkal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ishitachakkalakkal/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@21/21.0.10/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/surefire/surefirebooter-20260407135222154_3.jar /Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/surefire 2026-04-07T13-52-22_113-jvmRun1 surefire-20260407135222154_1tmp surefire_0-20260407135222154_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/test-classes:/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/classes:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ishitachakkalakkal/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/ishitachakkalakkal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ishitachakkalakkal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ishitachakkalakkal/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ishitachakkalakkal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@21/21.0.10/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/surefire/surefirebooter-20260407135222154_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.10"/>
+    <property name="user.name" value="ishitachakkalakkal"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.2.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/ishitachakkalakkal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/8q/6th9_nqx2z72p5zx79ctdy700000gn/T/"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ishitachakkalakkal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testHomePageTitle" classname="SpotifyHomePageTest" time="4.552">
+    <system-out><![CDATA[Page title: Spotify - Web Player: Music for everyone
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Apr 07, 2026 1:52:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Apr 07, 2026 1:52:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testHomePageURL" classname="SpotifyHomePageTest" time="2.366">
+    <system-out><![CDATA[Current URL: https://open.spotify.com/
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginButtonPresent" classname="SpotifyHomePageTest" time="2.365">
+    <system-out><![CDATA[Login button found: Log in
+]]></system-out>
+  </testcase>
+  <testcase name="testSignupButtonPresent" classname="SpotifyHomePageTest" time="2.31">
+    <system-out><![CDATA[Signup button found: Sign up
+]]></system-out>
+  </testcase>
+  <testcase name="testPageNotEmpty" classname="SpotifyHomePageTest" time="2.529">
+    <system-out><![CDATA[Page loaded with content, length: 2052
+]]></system-out>
+  </testcase>
+  <testcase name="testHomePageLoadsSuccessfully" classname="SpotifyHomePageTest" time="2.364">
+    <system-out><![CDATA[Homepage loaded successfully over HTTPS
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchPageURL" classname="SpotifySearchTest" time="3.484">
+    <system-out><![CDATA[Search URL: https://open.spotify.com/search
+]]></system-out>
+    <system-err><![CDATA[Apr 07, 2026 1:52:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Apr 07, 2026 1:52:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testSearchPageTitle" classname="SpotifySearchTest" time="2.347">
+    <system-out><![CDATA[Search page title: Spotify – Search
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchPageLoads" classname="SpotifySearchTest" time="2.437">
+    <system-out><![CDATA[Search page loaded with content, length: 1605
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchURLContainsSearch" classname="SpotifySearchTest" time="2.258">
+    <system-out><![CDATA[Search URL confirmed: https://open.spotify.com/search
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchPageHTTPS" classname="SpotifySearchTest" time="2.345">
+    <system-out><![CDATA[Search page loads securely: https://open.spotify.com/search
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchPageNotEqualToHome" classname="SpotifySearchTest" time="4.645">
+    <system-out><![CDATA[Search and home URLs are different — confirmed
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginPageLoads" classname="SpotifyLoginPageTest" time="4.064">
+    <system-out><![CDATA[Login page title: Spotify
+]]></system-out>
+    <system-err><![CDATA[Apr 07, 2026 1:53:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Apr 07, 2026 1:53:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginPageURL" classname="SpotifyLoginPageTest" time="3.189">
+    <system-out><![CDATA[Login URL: https://accounts.spotify.com/en/login
+]]></system-out>
+  </testcase>
+  <testcase name="testUsernameFieldPresent" classname="SpotifyLoginPageTest" time="3.161">
+    <system-out><![CDATA[Username field found and visible
+]]></system-out>
+  </testcase>
+  <testcase name="testPasswordFieldPresent" classname="SpotifyLoginPageTest" time="13.193">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;password&apos; or @data-testid=&apos;login-password&apos; or @name=&apos;password&apos;]&quot;}&#10;  (Session info: chrome=146.0.7680.178)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ed1088ad3a2e6366f9dd139058b83939, findElement {using=xpath, value=//input[@type=&apos;password&apos; or @data-testid=&apos;login-password&apos; or @name=&apos;password&apos;]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57769}, goog:processID: 89248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57769/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ed1088ad3a2e6366f9dd139058b83939" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='password' or @data-testid='login-password' or @name='password']"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed1088ad3a2e6366f9dd139058b83939, findElement {using=xpath, value=//input[@type='password' or @data-testid='login-password' or @name='password']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57769}, goog:processID: 89248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57769/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed1088ad3a2e6366f9dd139058b83939
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at SpotifyLoginPageTest.testPasswordFieldPresent(SpotifyLoginPageTest.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="testLoginButtonPresent" classname="SpotifyLoginPageTest" time="3.217">
+    <system-out><![CDATA[Login button found: Continue
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginPageIsHTTPS" classname="SpotifyLoginPageTest" time="3.256">
+    <system-out><![CDATA[Login page is secure: https://accounts.spotify.com/en/login
+]]></system-out>
+  </testcase>
+  <testcase name="testSignupPageLoads" classname="SpotifySignupPageTest" time="9.572">
+    <system-out><![CDATA[Signup page title: Sign up - Spotify
+]]></system-out>
+    <system-err><![CDATA[Apr 07, 2026 1:53:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Apr 07, 2026 1:53:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testSignupPageURL" classname="SpotifySignupPageTest" time="3.242">
+    <system-out><![CDATA[Signup URL: https://www.spotify.com/us/signup
+]]></system-out>
+  </testcase>
+  <testcase name="testEmailFieldPresent" classname="SpotifySignupPageTest" time="3.264">
+    <system-out><![CDATA[Email field found and visible
+]]></system-out>
+  </testcase>
+  <testcase name="testSignupPageIsHTTPS" classname="SpotifySignupPageTest" time="3.19">
+    <system-out><![CDATA[Signup page is secure: https://www.spotify.com/us/signup
+]]></system-out>
+  </testcase>
+  <testcase name="testSignupTitleContainsSpotify" classname="SpotifySignupPageTest" time="3.193">
+    <system-out><![CDATA[Signup title confirmed: Sign up - Spotify
+]]></system-out>
+  </testcase>
+  <testcase name="testSignupURLNotEqualToLogin" classname="SpotifySignupPageTest" time="4.551">
+    <system-out><![CDATA[Signup and login pages are separate — confirmed
+]]></system-out>
+  </testcase>
+</testsuite>
