@@ -12,4 +12,15 @@
       </class> <!-- SpotifyLoginPageTest -->
     </classes>
   </test> <!-- Ishita - Login Page Tests(failed) -->
+  <test thread-count="5" name="Gabriella - Navigation Tests(failed)" verbose="0">
+    <classes>
+      <class name="SpotifyNavigationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testFooterExists"/>
+        </methods>
+      </class> <!-- SpotifyNavigationTest -->
+    </classes>
+  </test> <!-- Gabriella - Navigation Tests(failed) -->
 </suite> <!-- Failed suite [Spotify Test Suite] -->

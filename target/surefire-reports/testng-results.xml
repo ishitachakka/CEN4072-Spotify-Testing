@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="24" passed="23" failed="1" skipped="0">
+<testng-results ignored="0" total="48" passed="46" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-07T13:52:22 EDT" name="Spotify Test Suite" finished-at="2026-04-07T13:54:12 EDT" duration-ms="110123">
+  <suite started-at="2026-04-07T22:00:20 EDT" name="Spotify Test Suite" finished-at="2026-04-07T22:03:45 EDT" duration-ms="204907">
     <groups>
     </groups>
-    <test started-at="2026-04-07T13:52:22 EDT" name="Ishita - Home Page Tests" finished-at="2026-04-07T13:52:40 EDT" duration-ms="18024">
+    <test started-at="2026-04-07T22:00:20 EDT" name="Ishita - Home Page Tests" finished-at="2026-04-07T22:00:38 EDT" duration-ms="18322">
       <class name="SpotifyHomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T13:52:22 EDT" name="setUp" finished-at="2026-04-07T13:52:23 EDT" duration-ms="1366" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:20 EDT" name="setUp" finished-at="2026-04-07T22:00:21 EDT" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomePageTitle()[pri:1, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T13:52:23 EDT" name="testHomePageTitle" finished-at="2026-04-07T13:52:28 EDT" duration-ms="4551" status="PASS">
+        <test-method signature="testHomePageTitle()[pri:1, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:21 EDT" name="testHomePageTitle" finished-at="2026-04-07T22:00:26 EDT" duration-ms="4503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageTitle -->
-        <test-method signature="testHomePageURL()[pri:2, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T13:52:28 EDT" name="testHomePageURL" finished-at="2026-04-07T13:52:30 EDT" duration-ms="2364" status="PASS">
+        <test-method signature="testHomePageURL()[pri:2, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:26 EDT" name="testHomePageURL" finished-at="2026-04-07T22:00:28 EDT" duration-ms="2684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageURL -->
-        <test-method signature="testLoginButtonPresent()[pri:3, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T13:52:30 EDT" name="testLoginButtonPresent" finished-at="2026-04-07T13:52:33 EDT" duration-ms="2366" status="PASS">
+        <test-method signature="testLoginButtonPresent()[pri:3, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:28 EDT" name="testLoginButtonPresent" finished-at="2026-04-07T22:00:31 EDT" duration-ms="2417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginButtonPresent -->
-        <test-method signature="testSignupButtonPresent()[pri:4, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T13:52:33 EDT" name="testSignupButtonPresent" finished-at="2026-04-07T13:52:35 EDT" duration-ms="2310" status="PASS">
+        <test-method signature="testSignupButtonPresent()[pri:4, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:31 EDT" name="testSignupButtonPresent" finished-at="2026-04-07T22:00:33 EDT" duration-ms="2418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupButtonPresent -->
-        <test-method signature="testPageNotEmpty()[pri:5, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T13:52:35 EDT" name="testPageNotEmpty" finished-at="2026-04-07T13:52:37 EDT" duration-ms="2527" status="PASS">
+        <test-method signature="testPageNotEmpty()[pri:5, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:33 EDT" name="testPageNotEmpty" finished-at="2026-04-07T22:00:36 EDT" duration-ms="2564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageNotEmpty -->
-        <test-method signature="testHomePageLoadsSuccessfully()[pri:6, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T13:52:37 EDT" name="testHomePageLoadsSuccessfully" finished-at="2026-04-07T13:52:40 EDT" duration-ms="2364" status="PASS">
+        <test-method signature="testHomePageLoadsSuccessfully()[pri:6, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:36 EDT" name="testHomePageLoadsSuccessfully" finished-at="2026-04-07T22:00:38 EDT" duration-ms="2400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageLoadsSuccessfully -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T13:52:40 EDT" name="tearDown" finished-at="2026-04-07T13:52:40 EDT" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:38 EDT" name="tearDown" finished-at="2026-04-07T22:00:38 EDT" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifyHomePageTest -->
     </test> <!-- Ishita - Home Page Tests -->
-    <test started-at="2026-04-07T13:52:40 EDT" name="Ishita - Search Tests" finished-at="2026-04-07T13:52:59 EDT" duration-ms="18695">
+    <test started-at="2026-04-07T22:00:39 EDT" name="Ishita - Search Tests" finished-at="2026-04-07T22:00:59 EDT" duration-ms="20087">
       <class name="SpotifySearchTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T13:52:40 EDT" name="setUp" finished-at="2026-04-07T13:52:41 EDT" duration-ms="1031" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:39 EDT" name="setUp" finished-at="2026-04-07T22:00:40 EDT" duration-ms="978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSearchPageURL()[pri:1, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T13:52:41 EDT" name="testSearchPageURL" finished-at="2026-04-07T13:52:45 EDT" duration-ms="3484" status="PASS">
+        <test-method signature="testSearchPageURL()[pri:1, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:40 EDT" name="testSearchPageURL" finished-at="2026-04-07T22:00:44 EDT" duration-ms="4211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchPageURL -->
-        <test-method signature="testSearchPageTitle()[pri:2, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T13:52:45 EDT" name="testSearchPageTitle" finished-at="2026-04-07T13:52:47 EDT" duration-ms="2346" status="PASS">
+        <test-method signature="testSearchPageTitle()[pri:2, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:44 EDT" name="testSearchPageTitle" finished-at="2026-04-07T22:00:46 EDT" duration-ms="2492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchPageTitle -->
-        <test-method signature="testSearchPageLoads()[pri:3, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T13:52:47 EDT" name="testSearchPageLoads" finished-at="2026-04-07T13:52:49 EDT" duration-ms="2436" status="PASS">
+        <test-method signature="testSearchPageLoads()[pri:3, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:46 EDT" name="testSearchPageLoads" finished-at="2026-04-07T22:00:49 EDT" duration-ms="2643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchPageLoads -->
-        <test-method signature="testSearchURLContainsSearch()[pri:4, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T13:52:49 EDT" name="testSearchURLContainsSearch" finished-at="2026-04-07T13:52:52 EDT" duration-ms="2257" status="PASS">
+        <test-method signature="testSearchURLContainsSearch()[pri:4, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:49 EDT" name="testSearchURLContainsSearch" finished-at="2026-04-07T22:00:51 EDT" duration-ms="2419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchURLContainsSearch -->
-        <test-method signature="testSearchPageHTTPS()[pri:5, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T13:52:52 EDT" name="testSearchPageHTTPS" finished-at="2026-04-07T13:52:54 EDT" duration-ms="2343" status="PASS">
+        <test-method signature="testSearchPageHTTPS()[pri:5, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:51 EDT" name="testSearchPageHTTPS" finished-at="2026-04-07T22:00:54 EDT" duration-ms="2426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchPageHTTPS -->
-        <test-method signature="testSearchPageNotEqualToHome()[pri:6, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T13:52:54 EDT" name="testSearchPageNotEqualToHome" finished-at="2026-04-07T13:52:59 EDT" duration-ms="4643" status="PASS">
+        <test-method signature="testSearchPageNotEqualToHome()[pri:6, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:54 EDT" name="testSearchPageNotEqualToHome" finished-at="2026-04-07T22:00:58 EDT" duration-ms="4767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchPageNotEqualToHome -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T13:52:59 EDT" name="tearDown" finished-at="2026-04-07T13:52:59 EDT" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:58 EDT" name="tearDown" finished-at="2026-04-07T22:00:59 EDT" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifySearchTest -->
     </test> <!-- Ishita - Search Tests -->
-    <test started-at="2026-04-07T13:52:59 EDT" name="Ishita - Login Page Tests" finished-at="2026-04-07T13:53:35 EDT" duration-ms="36208">
+    <test started-at="2026-04-07T22:00:59 EDT" name="Ishita - Login Page Tests" finished-at="2026-04-07T22:01:35 EDT" duration-ms="36610">
       <class name="SpotifyLoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T13:52:59 EDT" name="setUp" finished-at="2026-04-07T13:53:00 EDT" duration-ms="1016" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:00:59 EDT" name="setUp" finished-at="2026-04-07T22:01:00 EDT" duration-ms="1022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginPageLoads()[pri:1, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T13:53:00 EDT" name="testLoginPageLoads" finished-at="2026-04-07T13:53:04 EDT" duration-ms="4062" status="PASS">
+        <test-method signature="testLoginPageLoads()[pri:1, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:00 EDT" name="testLoginPageLoads" finished-at="2026-04-07T22:01:05 EDT" duration-ms="5095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageLoads -->
-        <test-method signature="testLoginPageURL()[pri:2, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T13:53:04 EDT" name="testLoginPageURL" finished-at="2026-04-07T13:53:07 EDT" duration-ms="3189" status="PASS">
+        <test-method signature="testLoginPageURL()[pri:2, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:05 EDT" name="testLoginPageURL" finished-at="2026-04-07T22:01:08 EDT" duration-ms="3212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageURL -->
-        <test-method signature="testUsernameFieldPresent()[pri:3, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T13:53:07 EDT" name="testUsernameFieldPresent" finished-at="2026-04-07T13:53:10 EDT" duration-ms="3161" status="PASS">
+        <test-method signature="testUsernameFieldPresent()[pri:3, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:08 EDT" name="testUsernameFieldPresent" finished-at="2026-04-07T22:01:11 EDT" duration-ms="3215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUsernameFieldPresent -->
-        <test-method signature="testPasswordFieldPresent()[pri:4, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T13:53:10 EDT" name="testPasswordFieldPresent" finished-at="2026-04-07T13:53:24 EDT" duration-ms="13185" status="FAIL">
+        <test-method signature="testPasswordFieldPresent()[pri:4, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:11 EDT" name="testPasswordFieldPresent" finished-at="2026-04-07T22:01:29 EDT" duration-ms="17434" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='password' or @data-testid='login-password' or @name='password']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-testid='login-password' or @id='login-password' or @type='password']"}
   (Session info: chrome=146.0.7680.178)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed1088ad3a2e6366f9dd139058b83939, findElement {using=xpath, value=//input[@type='password' or @data-testid='login-password' or @name='password']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57769}, goog:processID: 89248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57769/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ed1088ad3a2e6366f9dd139058b83939]]>
+Command: [7aea3bf5c418df45126ca46cdfb2682e, findElement {using=xpath, value=//input[@data-testid='login-password' or @id='login-password' or @type='password']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59617}, goog:processID: 11590, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59617/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7aea3bf5c418df45126ca46cdfb2682e]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='password' or @data-testid='login-password' or @name='password']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-testid='login-password' or @id='login-password' or @type='password']"}
   (Session info: chrome=146.0.7680.178)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed1088ad3a2e6366f9dd139058b83939, findElement {using=xpath, value=//input[@type='password' or @data-testid='login-password' or @name='password']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57769}, goog:processID: 89248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57769/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ed1088ad3a2e6366f9dd139058b83939
+Command: [7aea3bf5c418df45126ca46cdfb2682e, findElement {using=xpath, value=//input[@data-testid='login-password' or @id='login-password' or @type='password']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59617}, goog:processID: 11590, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59617/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7aea3bf5c418df45126ca46cdfb2682e
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -132,7 +132,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at SpotifyLoginPageTest.testPasswordFieldPresent(SpotifyLoginPageTest.java:65)
+at SpotifyLoginPageTest.testPasswordFieldPresent(SpotifyLoginPageTest.java:75)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -169,55 +169,269 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPasswordFieldPresent -->
-        <test-method signature="testLoginButtonPresent()[pri:5, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T13:53:24 EDT" name="testLoginButtonPresent" finished-at="2026-04-07T13:53:27 EDT" duration-ms="3217" status="PASS">
+        <test-method signature="testLoginButtonPresent()[pri:5, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:29 EDT" name="testLoginButtonPresent" finished-at="2026-04-07T22:01:32 EDT" duration-ms="3249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginButtonPresent -->
-        <test-method signature="testLoginPageIsHTTPS()[pri:6, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T13:53:27 EDT" name="testLoginPageIsHTTPS" finished-at="2026-04-07T13:53:30 EDT" duration-ms="3255" status="PASS">
+        <test-method signature="testLoginPageIsHTTPS()[pri:6, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:32 EDT" name="testLoginPageIsHTTPS" finished-at="2026-04-07T22:01:35 EDT" duration-ms="3269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageIsHTTPS -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T13:53:30 EDT" name="tearDown" finished-at="2026-04-07T13:53:35 EDT" duration-ms="5110" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:35 EDT" name="tearDown" finished-at="2026-04-07T22:01:35 EDT" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifyLoginPageTest -->
     </test> <!-- Ishita - Login Page Tests -->
-    <test started-at="2026-04-07T13:53:35 EDT" name="Ishita - Signup Page Tests" finished-at="2026-04-07T13:54:12 EDT" duration-ms="36691">
+    <test started-at="2026-04-07T22:01:35 EDT" name="Ishita - Signup Page Tests" finished-at="2026-04-07T22:02:10 EDT" duration-ms="34507">
       <class name="SpotifySignupPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T13:53:35 EDT" name="setUp" finished-at="2026-04-07T13:53:36 EDT" duration-ms="988" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:35 EDT" name="setUp" finished-at="2026-04-07T22:01:36 EDT" duration-ms="949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSignupPageLoads()[pri:1, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T13:53:36 EDT" name="testSignupPageLoads" finished-at="2026-04-07T13:53:46 EDT" duration-ms="9571" status="PASS">
+        <test-method signature="testSignupPageLoads()[pri:1, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:36 EDT" name="testSignupPageLoads" finished-at="2026-04-07T22:01:42 EDT" duration-ms="5469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupPageLoads -->
-        <test-method signature="testSignupPageURL()[pri:2, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T13:53:46 EDT" name="testSignupPageURL" finished-at="2026-04-07T13:53:49 EDT" duration-ms="3241" status="PASS">
+        <test-method signature="testSignupPageURL()[pri:2, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:42 EDT" name="testSignupPageURL" finished-at="2026-04-07T22:01:45 EDT" duration-ms="3298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupPageURL -->
-        <test-method signature="testEmailFieldPresent()[pri:3, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T13:53:49 EDT" name="testEmailFieldPresent" finished-at="2026-04-07T13:53:52 EDT" duration-ms="3264" status="PASS">
+        <test-method signature="testEmailFieldPresent()[pri:3, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:45 EDT" name="testEmailFieldPresent" finished-at="2026-04-07T22:01:48 EDT" duration-ms="3325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmailFieldPresent -->
-        <test-method signature="testSignupPageIsHTTPS()[pri:4, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T13:53:52 EDT" name="testSignupPageIsHTTPS" finished-at="2026-04-07T13:53:56 EDT" duration-ms="3190" status="PASS">
+        <test-method signature="testSignupPageIsHTTPS()[pri:4, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:48 EDT" name="testSignupPageIsHTTPS" finished-at="2026-04-07T22:01:52 EDT" duration-ms="3233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupPageIsHTTPS -->
-        <test-method signature="testSignupTitleContainsSpotify()[pri:5, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T13:53:56 EDT" name="testSignupTitleContainsSpotify" finished-at="2026-04-07T13:53:59 EDT" duration-ms="3192" status="PASS">
+        <test-method signature="testSignupTitleContainsSpotify()[pri:5, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:52 EDT" name="testSignupTitleContainsSpotify" finished-at="2026-04-07T22:01:55 EDT" duration-ms="3312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupTitleContainsSpotify -->
-        <test-method signature="testSignupURLNotEqualToLogin()[pri:6, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T13:53:59 EDT" name="testSignupURLNotEqualToLogin" finished-at="2026-04-07T13:54:03 EDT" duration-ms="4550" status="PASS">
+        <test-method signature="testSignupURLNotEqualToLogin()[pri:6, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:55 EDT" name="testSignupURLNotEqualToLogin" finished-at="2026-04-07T22:02:00 EDT" duration-ms="4797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupURLNotEqualToLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T13:54:03 EDT" name="tearDown" finished-at="2026-04-07T13:54:12 EDT" duration-ms="8689" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:02:00 EDT" name="tearDown" finished-at="2026-04-07T22:02:10 EDT" duration-ms="10119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifySignupPageTest -->
     </test> <!-- Ishita - Signup Page Tests -->
+    <test started-at="2026-04-07T22:02:10 EDT" name="Gabriella - Navigation Tests" finished-at="2026-04-07T22:02:45 EDT" duration-ms="35177">
+      <class name="SpotifyNavigationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:10 EDT" name="setup" finished-at="2026-04-07T22:02:11 EDT" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHomeNavigation()[pri:1, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:11 EDT" name="testHomeNavigation" finished-at="2026-04-07T22:02:15 EDT" duration-ms="4329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeNavigation -->
+        <test-method signature="testPremiumNavigation()[pri:2, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:15 EDT" name="testPremiumNavigation" finished-at="2026-04-07T22:02:21 EDT" duration-ms="5508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPremiumNavigation -->
+        <test-method signature="testSupportNavigation()[pri:3, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:21 EDT" name="testSupportNavigation" finished-at="2026-04-07T22:02:24 EDT" duration-ms="2971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSupportNavigation -->
+        <test-method signature="testDownloadNavigation()[pri:4, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:24 EDT" name="testDownloadNavigation" finished-at="2026-04-07T22:02:27 EDT" duration-ms="3663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadNavigation -->
+        <test-method signature="testFooterExists()[pri:5, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:27 EDT" name="testFooterExists" finished-at="2026-04-07T22:02:40 EDT" duration-ms="12501" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"tag name","selector":"footer"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c78cd22ccf6003de07a9827e804c500, findElement {using=tag name, value=footer}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60030}, goog:processID: 11763, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60030/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c78cd22ccf6003de07a9827e804c500]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"tag name","selector":"footer"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c78cd22ccf6003de07a9827e804c500, findElement {using=tag name, value=footer}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60030}, goog:processID: 11763, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60030/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c78cd22ccf6003de07a9827e804c500
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at SpotifyNavigationTest.testFooterExists(SpotifyNavigationTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFooterExists -->
+        <test-method signature="testAllPagesLoadOverHTTPS()[pri:6, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:40 EDT" name="testAllPagesLoadOverHTTPS" finished-at="2026-04-07T22:02:42 EDT" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllPagesLoadOverHTTPS -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:42 EDT" name="tearDown" finished-at="2026-04-07T22:02:45 EDT" duration-ms="2682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SpotifyNavigationTest -->
+    </test> <!-- Gabriella - Navigation Tests -->
+    <test started-at="2026-04-07T22:02:45 EDT" name="Gabriella - Premium Page Tests" finished-at="2026-04-07T22:03:02 EDT" duration-ms="16781">
+      <class name="SpotifyPremiumPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:45 EDT" name="setup" finished-at="2026-04-07T22:02:46 EDT" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPremiumPageLoads()[pri:1, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:46 EDT" name="testPremiumPageLoads" finished-at="2026-04-07T22:02:49 EDT" duration-ms="3203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPremiumPageLoads -->
+        <test-method signature="testPremiumPageURL()[pri:2, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:49 EDT" name="testPremiumPageURL" finished-at="2026-04-07T22:02:52 EDT" duration-ms="2522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPremiumPageURL -->
+        <test-method signature="testPremiumPageContainsPremiumText()[pri:3, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:52 EDT" name="testPremiumPageContainsPremiumText" finished-at="2026-04-07T22:02:54 EDT" duration-ms="2559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPremiumPageContainsPremiumText -->
+        <test-method signature="testPremiumPageContainsIndividualPlan()[pri:4, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:54 EDT" name="testPremiumPageContainsIndividualPlan" finished-at="2026-04-07T22:02:57 EDT" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPremiumPageContainsIndividualPlan -->
+        <test-method signature="testPremiumPageButtonPresent()[pri:5, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:57 EDT" name="testPremiumPageButtonPresent" finished-at="2026-04-07T22:02:59 EDT" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPremiumPageButtonPresent -->
+        <test-method signature="testPremiumPageIsHTTPS()[pri:6, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:59 EDT" name="testPremiumPageIsHTTPS" finished-at="2026-04-07T22:03:02 EDT" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPremiumPageIsHTTPS -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:03:02 EDT" name="tearDown" finished-at="2026-04-07T22:03:02 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SpotifyPremiumPageTest -->
+    </test> <!-- Gabriella - Premium Page Tests -->
+    <test started-at="2026-04-07T22:03:02 EDT" name="Gabriella - Download Page Tests" finished-at="2026-04-07T22:03:33 EDT" duration-ms="30850">
+      <class name="SpotifyDownloadPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:02 EDT" name="setup" finished-at="2026-04-07T22:03:03 EDT" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDownloadPageLoads()[pri:1, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:03 EDT" name="testDownloadPageLoads" finished-at="2026-04-07T22:03:08 EDT" duration-ms="5438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadPageLoads -->
+        <test-method signature="testDownloadPageURL()[pri:2, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:08 EDT" name="testDownloadPageURL" finished-at="2026-04-07T22:03:12 EDT" duration-ms="3808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadPageURL -->
+        <test-method signature="testDownloadPageContainsMac()[pri:3, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:12 EDT" name="testDownloadPageContainsMac" finished-at="2026-04-07T22:03:15 EDT" duration-ms="2654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadPageContainsMac -->
+        <test-method signature="testDownloadPageContainsMobile()[pri:4, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:15 EDT" name="testDownloadPageContainsMobile" finished-at="2026-04-07T22:03:17 EDT" duration-ms="2615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadPageContainsMobile -->
+        <test-method signature="testDownloadPageHasLinks()[pri:5, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:17 EDT" name="testDownloadPageHasLinks" finished-at="2026-04-07T22:03:20 EDT" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadPageHasLinks -->
+        <test-method signature="testDownloadPageIsHTTPS()[pri:6, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:20 EDT" name="testDownloadPageIsHTTPS" finished-at="2026-04-07T22:03:22 EDT" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadPageIsHTTPS -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:22 EDT" name="tearDown" finished-at="2026-04-07T22:03:33 EDT" duration-ms="10113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SpotifyDownloadPageTest -->
+    </test> <!-- Gabriella - Download Page Tests -->
+    <test started-at="2026-04-07T22:03:33 EDT" name="Gabriella - Accessibility Tests" finished-at="2026-04-07T22:03:45 EDT" duration-ms="12366">
+      <class name="SpotifyAccessibilityTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:33 EDT" name="setup" finished-at="2026-04-07T22:03:33 EDT" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHomePageResponse200()[pri:1, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:33 EDT" name="testHomePageResponse200" finished-at="2026-04-07T22:03:34 EDT" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageResponse200 -->
+        <test-method signature="testPremiumPageResponse200()[pri:2, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:34 EDT" name="testPremiumPageResponse200" finished-at="2026-04-07T22:03:35 EDT" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPremiumPageResponse200 -->
+        <test-method signature="testDownloadPageResponse200()[pri:3, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:35 EDT" name="testDownloadPageResponse200" finished-at="2026-04-07T22:03:36 EDT" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadPageResponse200 -->
+        <test-method signature="testPageTitleExists()[pri:4, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:36 EDT" name="testPageTitleExists" finished-at="2026-04-07T22:03:40 EDT" duration-ms="3992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitleExists -->
+        <test-method signature="testURLisHTTPS()[pri:5, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:40 EDT" name="testURLisHTTPS" finished-at="2026-04-07T22:03:42 EDT" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURLisHTTPS -->
+        <test-method signature="testBodyContentExists()[pri:6, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:42 EDT" name="testBodyContentExists" finished-at="2026-04-07T22:03:45 EDT" duration-ms="2629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBodyContentExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:45 EDT" name="tearDown" finished-at="2026-04-07T22:03:45 EDT" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SpotifyAccessibilityTest -->
+    </test> <!-- Gabriella - Accessibility Tests -->
   </suite> <!-- Spotify Test Suite -->
 </testng-results>

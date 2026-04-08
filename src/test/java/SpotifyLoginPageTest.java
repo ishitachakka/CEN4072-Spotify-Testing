@@ -62,11 +62,21 @@ public class SpotifyLoginPageTest {
     public void testPasswordFieldPresent() throws InterruptedException {
         driver.get("https://accounts.spotify.com/en/login");
         Thread.sleep(3000);
+        // Spotify uses 2-step login - enter email first then password appears
+        WebElement usernameField = driver.findElement(
+                By.xpath("//input[@data-testid='login-username' or @id='login-username']"));
+        usernameField.sendKeys("test@example.com");
+        Thread.sleep(1000);
+        WebElement continueBtn = driver.findElement(
+                By.xpath("//button[@data-testid='login-button' or @id='login-button']"));
+        continueBtn.click();
+        Thread.sleep(3000);
+        // Now password field should appear
         WebElement passwordField = driver.findElement(
-                By.xpath("//input[@type='password' or @data-testid='login-password' or @name='password']"));
+                By.xpath("//input[@data-testid='login-password' or @id='login-password' or @type='password']"));
         Assert.assertTrue(passwordField.isDisplayed(),
-                "Password field should be visible");
-        System.out.println("Password field found and visible");
+                "Password field should be visible after entering email");
+        System.out.println("TEST 4: Password field visible after email entry");
     }
 
     @Test(priority = 5)
