@@ -1,138 +1,830 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="48" passed="46" failed="2" skipped="0">
+<testng-results ignored="0" total="48" passed="32" failed="4" skipped="12">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-07T22:00:20 EDT" name="Spotify Test Suite" finished-at="2026-04-07T22:03:45 EDT" duration-ms="204907">
+  <suite started-at="2026-04-08T16:40:03 EDT" name="Spotify Test Suite" finished-at="2026-04-08T16:48:16 EDT" duration-ms="492432">
     <groups>
     </groups>
-    <test started-at="2026-04-07T22:00:20 EDT" name="Ishita - Home Page Tests" finished-at="2026-04-07T22:00:38 EDT" duration-ms="18322">
+    <test started-at="2026-04-08T16:40:03 EDT" name="Ishita - Home Page Tests" finished-at="2026-04-08T16:40:26 EDT" duration-ms="22541">
       <class name="SpotifyHomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:20 EDT" name="setUp" finished-at="2026-04-07T22:00:21 EDT" duration-ms="1175" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-08T16:40:03 EDT" name="setUp" finished-at="2026-04-08T16:40:26 EDT" duration-ms="22520" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifyHomePageTest.loginToSpotify(SpotifyHomePageTest.java:30)
+at SpotifyHomePageTest.setUp(SpotifyHomePageTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomePageTitle()[pri:1, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:21 EDT" name="testHomePageTitle" finished-at="2026-04-07T22:00:26 EDT" duration-ms="4503" status="PASS">
+        <test-method signature="testHomePageLoadsAfterLogin()[pri:1, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-08T16:40:26 EDT" name="testHomePageLoadsAfterLogin" finished-at="2026-04-08T16:40:26 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifyHomePageTest.loginToSpotify(SpotifyHomePageTest.java:30)
+at SpotifyHomePageTest.setUp(SpotifyHomePageTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHomePageTitle -->
-        <test-method signature="testHomePageURL()[pri:2, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:26 EDT" name="testHomePageURL" finished-at="2026-04-07T22:00:28 EDT" duration-ms="2684" status="PASS">
+        </test-method> <!-- testHomePageLoadsAfterLogin -->
+        <test-method signature="testScrollDownHomepage()[pri:2, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-08T16:40:26 EDT" name="testScrollDownHomepage" finished-at="2026-04-08T16:40:26 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifyHomePageTest.loginToSpotify(SpotifyHomePageTest.java:30)
+at SpotifyHomePageTest.setUp(SpotifyHomePageTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHomePageURL -->
-        <test-method signature="testLoginButtonPresent()[pri:3, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:28 EDT" name="testLoginButtonPresent" finished-at="2026-04-07T22:00:31 EDT" duration-ms="2417" status="PASS">
+        </test-method> <!-- testScrollDownHomepage -->
+        <test-method signature="testClickMusicTab()[pri:3, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-08T16:40:26 EDT" name="testClickMusicTab" finished-at="2026-04-08T16:40:26 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifyHomePageTest.loginToSpotify(SpotifyHomePageTest.java:30)
+at SpotifyHomePageTest.setUp(SpotifyHomePageTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginButtonPresent -->
-        <test-method signature="testSignupButtonPresent()[pri:4, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:31 EDT" name="testSignupButtonPresent" finished-at="2026-04-07T22:00:33 EDT" duration-ms="2418" status="PASS">
+        </test-method> <!-- testClickMusicTab -->
+        <test-method signature="testScrollBackToTop()[pri:6, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-08T16:40:26 EDT" name="testScrollBackToTop" finished-at="2026-04-08T16:40:26 EDT" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifyHomePageTest.loginToSpotify(SpotifyHomePageTest.java:30)
+at SpotifyHomePageTest.setUp(SpotifyHomePageTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSignupButtonPresent -->
-        <test-method signature="testPageNotEmpty()[pri:5, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:33 EDT" name="testPageNotEmpty" finished-at="2026-04-07T22:00:36 EDT" duration-ms="2564" status="PASS">
+        </test-method> <!-- testScrollBackToTop -->
+        <test-method signature="testClickPodcastsTab()[pri:4, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-08T16:40:26 EDT" name="testClickPodcastsTab" finished-at="2026-04-08T16:40:26 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifyHomePageTest.loginToSpotify(SpotifyHomePageTest.java:30)
+at SpotifyHomePageTest.setUp(SpotifyHomePageTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPageNotEmpty -->
-        <test-method signature="testHomePageLoadsSuccessfully()[pri:6, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:36 EDT" name="testHomePageLoadsSuccessfully" finished-at="2026-04-07T22:00:38 EDT" duration-ms="2400" status="PASS">
+        </test-method> <!-- testClickPodcastsTab -->
+        <test-method signature="testCreatePlaylistButtonVisible()[pri:5, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-08T16:40:26 EDT" name="testCreatePlaylistButtonVisible" finished-at="2026-04-08T16:40:26 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ba25e12415ab433185fbd67be2e2e16
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifyHomePageTest.loginToSpotify(SpotifyHomePageTest.java:30)
+at SpotifyHomePageTest.setUp(SpotifyHomePageTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHomePageLoadsSuccessfully -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-07T22:00:38 EDT" name="tearDown" finished-at="2026-04-07T22:00:38 EDT" duration-ms="145" status="PASS">
+        </test-method> <!-- testCreatePlaylistButtonVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyHomePageTest@769f71a9]" started-at="2026-04-08T16:40:26 EDT" name="tearDown" finished-at="2026-04-08T16:40:26 EDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifyHomePageTest -->
     </test> <!-- Ishita - Home Page Tests -->
-    <test started-at="2026-04-07T22:00:39 EDT" name="Ishita - Search Tests" finished-at="2026-04-07T22:00:59 EDT" duration-ms="20087">
+    <test started-at="2026-04-08T16:40:26 EDT" name="Ishita - Search Tests" finished-at="2026-04-08T16:40:50 EDT" duration-ms="23883">
       <class name="SpotifySearchTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:39 EDT" name="setUp" finished-at="2026-04-07T22:00:40 EDT" duration-ms="978" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-08T16:40:26 EDT" name="setUp" finished-at="2026-04-08T16:40:50 EDT" duration-ms="23875" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifySearchTest.loginToSpotify(SpotifySearchTest.java:29)
+at SpotifySearchTest.setUp(SpotifySearchTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSearchPageURL()[pri:1, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:40 EDT" name="testSearchPageURL" finished-at="2026-04-07T22:00:44 EDT" duration-ms="4211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchPageURL -->
-        <test-method signature="testSearchPageTitle()[pri:2, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:44 EDT" name="testSearchPageTitle" finished-at="2026-04-07T22:00:46 EDT" duration-ms="2492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchPageTitle -->
-        <test-method signature="testSearchPageLoads()[pri:3, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:46 EDT" name="testSearchPageLoads" finished-at="2026-04-07T22:00:49 EDT" duration-ms="2643" status="PASS">
+        <test-method signature="testSearchPageLoads()[pri:1, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-08T16:40:50 EDT" name="testSearchPageLoads" finished-at="2026-04-08T16:40:50 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifySearchTest.loginToSpotify(SpotifySearchTest.java:29)
+at SpotifySearchTest.setUp(SpotifySearchTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchPageLoads -->
-        <test-method signature="testSearchURLContainsSearch()[pri:4, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:49 EDT" name="testSearchURLContainsSearch" finished-at="2026-04-07T22:00:51 EDT" duration-ms="2419" status="PASS">
+        <test-method signature="testSearchForDrake()[pri:2, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-08T16:40:50 EDT" name="testSearchForDrake" finished-at="2026-04-08T16:40:50 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifySearchTest.loginToSpotify(SpotifySearchTest.java:29)
+at SpotifySearchTest.setUp(SpotifySearchTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchURLContainsSearch -->
-        <test-method signature="testSearchPageHTTPS()[pri:5, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:51 EDT" name="testSearchPageHTTPS" finished-at="2026-04-07T22:00:54 EDT" duration-ms="2426" status="PASS">
+        </test-method> <!-- testSearchForDrake -->
+        <test-method signature="testSearchForHonestlyNevermind()[pri:3, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-08T16:40:50 EDT" name="testSearchForHonestlyNevermind" finished-at="2026-04-08T16:40:50 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifySearchTest.loginToSpotify(SpotifySearchTest.java:29)
+at SpotifySearchTest.setUp(SpotifySearchTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchPageHTTPS -->
-        <test-method signature="testSearchPageNotEqualToHome()[pri:6, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:54 EDT" name="testSearchPageNotEqualToHome" finished-at="2026-04-07T22:00:58 EDT" duration-ms="4767" status="PASS">
+        </test-method> <!-- testSearchForHonestlyNevermind -->
+        <test-method signature="testSearchResultsHaveContent()[pri:4, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-08T16:40:50 EDT" name="testSearchResultsHaveContent" finished-at="2026-04-08T16:40:50 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifySearchTest.loginToSpotify(SpotifySearchTest.java:29)
+at SpotifySearchTest.setUp(SpotifySearchTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchPageNotEqualToHome -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-07T22:00:58 EDT" name="tearDown" finished-at="2026-04-07T22:00:59 EDT" duration-ms="148" status="PASS">
+        </test-method> <!-- testSearchResultsHaveContent -->
+        <test-method signature="testSearchPageIsHTTPS()[pri:6, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-08T16:40:50 EDT" name="testSearchPageIsHTTPS" finished-at="2026-04-08T16:40:50 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifySearchTest.loginToSpotify(SpotifySearchTest.java:29)
+at SpotifySearchTest.setUp(SpotifySearchTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchPageIsHTTPS -->
+        <test-method signature="testClearSearchAndSearchAgain()[pri:5, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-08T16:40:50 EDT" name="testClearSearchAndSearchAgain" finished-at="2026-04-08T16:40:50 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09211e50c0ab19f1925e4d431cf00fc4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifySearchTest.loginToSpotify(SpotifySearchTest.java:29)
+at SpotifySearchTest.setUp(SpotifySearchTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearSearchAndSearchAgain -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifySearchTest@1725dc0f]" started-at="2026-04-08T16:40:50 EDT" name="tearDown" finished-at="2026-04-08T16:40:50 EDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifySearchTest -->
     </test> <!-- Ishita - Search Tests -->
-    <test started-at="2026-04-07T22:00:59 EDT" name="Ishita - Login Page Tests" finished-at="2026-04-07T22:01:35 EDT" duration-ms="36610">
+    <test started-at="2026-04-08T16:40:50 EDT" name="Ishita - Login Page Tests" finished-at="2026-04-08T16:42:01 EDT" duration-ms="70587">
       <class name="SpotifyLoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:00:59 EDT" name="setUp" finished-at="2026-04-07T22:01:00 EDT" duration-ms="1022" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifyLoginPageTest@15eb5ee5]" started-at="2026-04-08T16:40:50 EDT" name="setUp" finished-at="2026-04-08T16:40:52 EDT" duration-ms="1531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginPageLoads()[pri:1, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:00 EDT" name="testLoginPageLoads" finished-at="2026-04-07T22:01:05 EDT" duration-ms="5095" status="PASS">
+        <test-method signature="testLoginPageLoads()[pri:1, instance:SpotifyLoginPageTest@15eb5ee5]" started-at="2026-04-08T16:40:52 EDT" name="testLoginPageLoads" finished-at="2026-04-08T16:40:58 EDT" duration-ms="6068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageLoads -->
-        <test-method signature="testLoginPageURL()[pri:2, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:05 EDT" name="testLoginPageURL" finished-at="2026-04-07T22:01:08 EDT" duration-ms="3212" status="PASS">
+        <test-method signature="testLoginPageURL()[pri:2, instance:SpotifyLoginPageTest@15eb5ee5]" started-at="2026-04-08T16:40:58 EDT" name="testLoginPageURL" finished-at="2026-04-08T16:41:00 EDT" duration-ms="2504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageURL -->
-        <test-method signature="testUsernameFieldPresent()[pri:3, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:08 EDT" name="testUsernameFieldPresent" finished-at="2026-04-07T22:01:11 EDT" duration-ms="3215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUsernameFieldPresent -->
-        <test-method signature="testPasswordFieldPresent()[pri:4, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:11 EDT" name="testPasswordFieldPresent" finished-at="2026-04-07T22:01:29 EDT" duration-ms="17434" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="testEmailFieldAndContinue()[pri:3, instance:SpotifyLoginPageTest@15eb5ee5]" started-at="2026-04-08T16:41:00 EDT" name="testEmailFieldAndContinue" finished-at="2026-04-08T16:41:19 EDT" duration-ms="18348" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-testid='login-password' or @id='login-password' or @type='password']"}
-  (Session info: chrome=146.0.7680.178)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7aea3bf5c418df45126ca46cdfb2682e, findElement {using=xpath, value=//input[@data-testid='login-password' or @id='login-password' or @type='password']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59617}, goog:processID: 11590, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59617/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7aea3bf5c418df45126ca46cdfb2682e]]>
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b4866905fc9f07012c45b592aedc84]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-testid='login-password' or @id='login-password' or @type='password']"}
-  (Session info: chrome=146.0.7680.178)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7aea3bf5c418df45126ca46cdfb2682e, findElement {using=xpath, value=//input[@data-testid='login-password' or @id='login-password' or @type='password']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59617}, goog:processID: 11590, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59617/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7aea3bf5c418df45126ca46cdfb2682e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at SpotifyLoginPageTest.testPasswordFieldPresent(SpotifyLoginPageTest.java:75)
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b4866905fc9f07012c45b592aedc84
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifyLoginPageTest.testEmailFieldAndContinue(SpotifyLoginPageTest.java:52)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -165,83 +857,191 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPasswordFieldPresent -->
-        <test-method signature="testLoginButtonPresent()[pri:5, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:29 EDT" name="testLoginButtonPresent" finished-at="2026-04-07T22:01:32 EDT" duration-ms="3249" status="PASS">
+        </test-method> <!-- testEmailFieldAndContinue -->
+        <test-method signature="testClickContinueAndLoginWithPassword()[pri:4, instance:SpotifyLoginPageTest@15eb5ee5]" started-at="2026-04-08T16:41:19 EDT" name="testClickContinueAndLoginWithPassword" finished-at="2026-04-08T16:41:37 EDT" duration-ms="18349" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b4866905fc9f07012c45b592aedc84]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b4866905fc9f07012c45b592aedc84
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifyLoginPageTest.testClickContinueAndLoginWithPassword(SpotifyLoginPageTest.java:66)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginButtonPresent -->
-        <test-method signature="testLoginPageIsHTTPS()[pri:6, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:32 EDT" name="testLoginPageIsHTTPS" finished-at="2026-04-07T22:01:35 EDT" duration-ms="3269" status="PASS">
+        </test-method> <!-- testClickContinueAndLoginWithPassword -->
+        <test-method signature="testFullLoginFlow()[pri:5, instance:SpotifyLoginPageTest@15eb5ee5]" started-at="2026-04-08T16:41:37 EDT" name="testFullLoginFlow" finished-at="2026-04-08T16:41:56 EDT" duration-ms="19112" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b4866905fc9f07012c45b592aedc84]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b4866905fc9f07012c45b592aedc84
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SpotifyLoginPageTest.testFullLoginFlow(SpotifyLoginPageTest.java:89)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullLoginFlow -->
+        <test-method signature="testLoginPageIsHTTPS()[pri:6, instance:SpotifyLoginPageTest@15eb5ee5]" started-at="2026-04-08T16:41:56 EDT" name="testLoginPageIsHTTPS" finished-at="2026-04-08T16:42:01 EDT" duration-ms="4557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageIsHTTPS -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyLoginPageTest@4f209819]" started-at="2026-04-07T22:01:35 EDT" name="tearDown" finished-at="2026-04-07T22:01:35 EDT" duration-ms="105" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyLoginPageTest@15eb5ee5]" started-at="2026-04-08T16:42:01 EDT" name="tearDown" finished-at="2026-04-08T16:42:01 EDT" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifyLoginPageTest -->
     </test> <!-- Ishita - Login Page Tests -->
-    <test started-at="2026-04-07T22:01:35 EDT" name="Ishita - Signup Page Tests" finished-at="2026-04-07T22:02:10 EDT" duration-ms="34507">
+    <test started-at="2026-04-08T16:42:01 EDT" name="Ishita - Signup Page Tests" finished-at="2026-04-08T16:42:54 EDT" duration-ms="52931">
       <class name="SpotifySignupPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:35 EDT" name="setUp" finished-at="2026-04-07T22:01:36 EDT" duration-ms="949" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SpotifySignupPageTest@7ed7259e]" started-at="2026-04-08T16:42:01 EDT" name="setUp" finished-at="2026-04-08T16:42:02 EDT" duration-ms="833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSignupPageLoads()[pri:1, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:36 EDT" name="testSignupPageLoads" finished-at="2026-04-07T22:01:42 EDT" duration-ms="5469" status="PASS">
+        <test-method signature="testSignupPageLoads()[pri:1, instance:SpotifySignupPageTest@7ed7259e]" started-at="2026-04-08T16:42:02 EDT" name="testSignupPageLoads" finished-at="2026-04-08T16:42:32 EDT" duration-ms="29905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupPageLoads -->
-        <test-method signature="testSignupPageURL()[pri:2, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:42 EDT" name="testSignupPageURL" finished-at="2026-04-07T22:01:45 EDT" duration-ms="3298" status="PASS">
+        <test-method signature="testSignupPageURL()[pri:2, instance:SpotifySignupPageTest@7ed7259e]" started-at="2026-04-08T16:42:32 EDT" name="testSignupPageURL" finished-at="2026-04-08T16:42:35 EDT" duration-ms="3629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupPageURL -->
-        <test-method signature="testEmailFieldPresent()[pri:3, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:45 EDT" name="testEmailFieldPresent" finished-at="2026-04-07T22:01:48 EDT" duration-ms="3325" status="PASS">
+        <test-method signature="testEmailFieldAcceptsInput()[pri:3, instance:SpotifySignupPageTest@7ed7259e]" started-at="2026-04-08T16:42:35 EDT" name="testEmailFieldAcceptsInput" finished-at="2026-04-08T16:42:41 EDT" duration-ms="5843" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEmailFieldPresent -->
-        <test-method signature="testSignupPageIsHTTPS()[pri:4, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:48 EDT" name="testSignupPageIsHTTPS" finished-at="2026-04-07T22:01:52 EDT" duration-ms="3233" status="PASS">
+        </test-method> <!-- testEmailFieldAcceptsInput -->
+        <test-method signature="testScrollDownSignupForm()[pri:4, instance:SpotifySignupPageTest@7ed7259e]" started-at="2026-04-08T16:42:41 EDT" name="testScrollDownSignupForm" finished-at="2026-04-08T16:42:48 EDT" duration-ms="6459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollDownSignupForm -->
+        <test-method signature="testSignupPageIsHTTPS()[pri:5, instance:SpotifySignupPageTest@7ed7259e]" started-at="2026-04-08T16:42:48 EDT" name="testSignupPageIsHTTPS" finished-at="2026-04-08T16:42:50 EDT" duration-ms="2724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupPageIsHTTPS -->
-        <test-method signature="testSignupTitleContainsSpotify()[pri:5, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:52 EDT" name="testSignupTitleContainsSpotify" finished-at="2026-04-07T22:01:55 EDT" duration-ms="3312" status="PASS">
+        <test-method signature="testSignupTitleContainsSpotify()[pri:6, instance:SpotifySignupPageTest@7ed7259e]" started-at="2026-04-08T16:42:50 EDT" name="testSignupTitleContainsSpotify" finished-at="2026-04-08T16:42:54 EDT" duration-ms="3430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupTitleContainsSpotify -->
-        <test-method signature="testSignupURLNotEqualToLogin()[pri:6, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:01:55 EDT" name="testSignupURLNotEqualToLogin" finished-at="2026-04-07T22:02:00 EDT" duration-ms="4797" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSignupURLNotEqualToLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifySignupPageTest@3d51f06e]" started-at="2026-04-07T22:02:00 EDT" name="tearDown" finished-at="2026-04-07T22:02:10 EDT" duration-ms="10119" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifySignupPageTest@7ed7259e]" started-at="2026-04-08T16:42:54 EDT" name="tearDown" finished-at="2026-04-08T16:42:54 EDT" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifySignupPageTest -->
     </test> <!-- Ishita - Signup Page Tests -->
-    <test started-at="2026-04-07T22:02:10 EDT" name="Gabriella - Navigation Tests" finished-at="2026-04-07T22:02:45 EDT" duration-ms="35177">
+    <test started-at="2026-04-08T16:42:54 EDT" name="Gabriella - Navigation Tests" finished-at="2026-04-08T16:46:47 EDT" duration-ms="232708">
       <class name="SpotifyNavigationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:10 EDT" name="setup" finished-at="2026-04-07T22:02:11 EDT" duration-ms="993" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyNavigationTest@708f5957]" started-at="2026-04-08T16:42:54 EDT" name="setup" finished-at="2026-04-08T16:42:55 EDT" duration-ms="797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testHomeNavigation()[pri:1, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:11 EDT" name="testHomeNavigation" finished-at="2026-04-07T22:02:15 EDT" duration-ms="4329" status="PASS">
+        <test-method signature="testHomeNavigation()[pri:1, instance:SpotifyNavigationTest@708f5957]" started-at="2026-04-08T16:42:55 EDT" name="testHomeNavigation" finished-at="2026-04-08T16:45:07 EDT" duration-ms="131756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomeNavigation -->
-        <test-method signature="testPremiumNavigation()[pri:2, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:15 EDT" name="testPremiumNavigation" finished-at="2026-04-07T22:02:21 EDT" duration-ms="5508" status="PASS">
+        <test-method signature="testPremiumNavigation()[pri:2, instance:SpotifyNavigationTest@708f5957]" started-at="2026-04-08T16:45:07 EDT" name="testPremiumNavigation" finished-at="2026-04-08T16:45:45 EDT" duration-ms="37935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPremiumNavigation -->
-        <test-method signature="testSupportNavigation()[pri:3, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:21 EDT" name="testSupportNavigation" finished-at="2026-04-07T22:02:24 EDT" duration-ms="2971" status="PASS">
+        <test-method signature="testSupportNavigation()[pri:3, instance:SpotifyNavigationTest@708f5957]" started-at="2026-04-08T16:45:45 EDT" name="testSupportNavigation" finished-at="2026-04-08T16:45:53 EDT" duration-ms="8337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSupportNavigation -->
-        <test-method signature="testDownloadNavigation()[pri:4, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:24 EDT" name="testDownloadNavigation" finished-at="2026-04-07T22:02:27 EDT" duration-ms="3663" status="PASS">
+        <test-method signature="testDownloadNavigation()[pri:4, instance:SpotifyNavigationTest@708f5957]" started-at="2026-04-08T16:45:53 EDT" name="testDownloadNavigation" finished-at="2026-04-08T16:46:23 EDT" duration-ms="30032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownloadNavigation -->
-        <test-method signature="testFooterExists()[pri:5, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:27 EDT" name="testFooterExists" finished-at="2026-04-07T22:02:40 EDT" duration-ms="12501" status="FAIL">
+        <test-method signature="testFooterExists()[pri:5, instance:SpotifyNavigationTest@708f5957]" started-at="2026-04-08T16:46:23 EDT" name="testFooterExists" finished-at="2026-04-08T16:46:43 EDT" duration-ms="20024" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"tag name","selector":"footer"}
@@ -250,9 +1050,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c78cd22ccf6003de07a9827e804c500, findElement {using=tag name, value=footer}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60030}, goog:processID: 11763, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60030/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3c78cd22ccf6003de07a9827e804c500]]>
+Command: [6a89cac6c4774e8184b8d27c5b7cf812, findElement {using=tag name, value=footer}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52576}, goog:processID: 63985, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52576/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a89cac6c4774e8184b8d27c5b7cf812]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"tag name","selector":"footer"}
@@ -261,9 +1061,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c78cd22ccf6003de07a9827e804c500, findElement {using=tag name, value=footer}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60030}, goog:processID: 11763, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60030/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3c78cd22ccf6003de07a9827e804c500
+Command: [6a89cac6c4774e8184b8d27c5b7cf812, findElement {using=tag name, value=footer}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52576}, goog:processID: 63985, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52576/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a89cac6c4774e8184b8d27c5b7cf812
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -315,119 +1115,119 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFooterExists -->
-        <test-method signature="testAllPagesLoadOverHTTPS()[pri:6, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:40 EDT" name="testAllPagesLoadOverHTTPS" finished-at="2026-04-07T22:02:42 EDT" duration-ms="2523" status="PASS">
+        <test-method signature="testAllPagesLoadOverHTTPS()[pri:6, instance:SpotifyNavigationTest@708f5957]" started-at="2026-04-08T16:46:43 EDT" name="testAllPagesLoadOverHTTPS" finished-at="2026-04-08T16:46:47 EDT" duration-ms="3647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAllPagesLoadOverHTTPS -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyNavigationTest@619713e5]" started-at="2026-04-07T22:02:42 EDT" name="tearDown" finished-at="2026-04-07T22:02:45 EDT" duration-ms="2682" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyNavigationTest@708f5957]" started-at="2026-04-08T16:46:47 EDT" name="tearDown" finished-at="2026-04-08T16:46:47 EDT" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifyNavigationTest -->
     </test> <!-- Gabriella - Navigation Tests -->
-    <test started-at="2026-04-07T22:02:45 EDT" name="Gabriella - Premium Page Tests" finished-at="2026-04-07T22:03:02 EDT" duration-ms="16781">
+    <test started-at="2026-04-08T16:46:47 EDT" name="Gabriella - Premium Page Tests" finished-at="2026-04-08T16:47:21 EDT" duration-ms="34163">
       <class name="SpotifyPremiumPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:45 EDT" name="setup" finished-at="2026-04-07T22:02:46 EDT" duration-ms="1001" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyPremiumPageTest@188715b5]" started-at="2026-04-08T16:46:47 EDT" name="setup" finished-at="2026-04-08T16:46:48 EDT" duration-ms="753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPremiumPageLoads()[pri:1, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:46 EDT" name="testPremiumPageLoads" finished-at="2026-04-07T22:02:49 EDT" duration-ms="3203" status="PASS">
+        <test-method signature="testPremiumPageLoads()[pri:1, instance:SpotifyPremiumPageTest@188715b5]" started-at="2026-04-08T16:46:48 EDT" name="testPremiumPageLoads" finished-at="2026-04-08T16:46:55 EDT" duration-ms="6810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPremiumPageLoads -->
-        <test-method signature="testPremiumPageURL()[pri:2, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:49 EDT" name="testPremiumPageURL" finished-at="2026-04-07T22:02:52 EDT" duration-ms="2522" status="PASS">
+        <test-method signature="testPremiumPageURL()[pri:2, instance:SpotifyPremiumPageTest@188715b5]" started-at="2026-04-08T16:46:55 EDT" name="testPremiumPageURL" finished-at="2026-04-08T16:46:58 EDT" duration-ms="3456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPremiumPageURL -->
-        <test-method signature="testPremiumPageContainsPremiumText()[pri:3, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:52 EDT" name="testPremiumPageContainsPremiumText" finished-at="2026-04-07T22:02:54 EDT" duration-ms="2559" status="PASS">
+        <test-method signature="testPremiumPageContainsPremiumText()[pri:3, instance:SpotifyPremiumPageTest@188715b5]" started-at="2026-04-08T16:46:58 EDT" name="testPremiumPageContainsPremiumText" finished-at="2026-04-08T16:47:01 EDT" duration-ms="3234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPremiumPageContainsPremiumText -->
-        <test-method signature="testPremiumPageContainsIndividualPlan()[pri:4, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:54 EDT" name="testPremiumPageContainsIndividualPlan" finished-at="2026-04-07T22:02:57 EDT" duration-ms="2470" status="PASS">
+        <test-method signature="testPremiumPageContainsIndividualPlan()[pri:4, instance:SpotifyPremiumPageTest@188715b5]" started-at="2026-04-08T16:47:01 EDT" name="testPremiumPageContainsIndividualPlan" finished-at="2026-04-08T16:47:04 EDT" duration-ms="2801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPremiumPageContainsIndividualPlan -->
-        <test-method signature="testPremiumPageButtonPresent()[pri:5, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:57 EDT" name="testPremiumPageButtonPresent" finished-at="2026-04-07T22:02:59 EDT" duration-ms="2445" status="PASS">
+        <test-method signature="testPremiumPageButtonPresent()[pri:5, instance:SpotifyPremiumPageTest@188715b5]" started-at="2026-04-08T16:47:04 EDT" name="testPremiumPageButtonPresent" finished-at="2026-04-08T16:47:07 EDT" duration-ms="3076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPremiumPageButtonPresent -->
-        <test-method signature="testPremiumPageIsHTTPS()[pri:6, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:02:59 EDT" name="testPremiumPageIsHTTPS" finished-at="2026-04-07T22:03:02 EDT" duration-ms="2475" status="PASS">
+        <test-method signature="testPremiumPageIsHTTPS()[pri:6, instance:SpotifyPremiumPageTest@188715b5]" started-at="2026-04-08T16:47:07 EDT" name="testPremiumPageIsHTTPS" finished-at="2026-04-08T16:47:11 EDT" duration-ms="3919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPremiumPageIsHTTPS -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyPremiumPageTest@2f7298b]" started-at="2026-04-07T22:03:02 EDT" name="tearDown" finished-at="2026-04-07T22:03:02 EDT" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyPremiumPageTest@188715b5]" started-at="2026-04-08T16:47:11 EDT" name="tearDown" finished-at="2026-04-08T16:47:21 EDT" duration-ms="10108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifyPremiumPageTest -->
     </test> <!-- Gabriella - Premium Page Tests -->
-    <test started-at="2026-04-07T22:03:02 EDT" name="Gabriella - Download Page Tests" finished-at="2026-04-07T22:03:33 EDT" duration-ms="30850">
+    <test started-at="2026-04-08T16:47:21 EDT" name="Gabriella - Download Page Tests" finished-at="2026-04-08T16:47:58 EDT" duration-ms="36323">
       <class name="SpotifyDownloadPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:02 EDT" name="setup" finished-at="2026-04-07T22:03:03 EDT" duration-ms="927" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyDownloadPageTest@393671df]" started-at="2026-04-08T16:47:21 EDT" name="setup" finished-at="2026-04-08T16:47:22 EDT" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testDownloadPageLoads()[pri:1, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:03 EDT" name="testDownloadPageLoads" finished-at="2026-04-07T22:03:08 EDT" duration-ms="5438" status="PASS">
+        <test-method signature="testDownloadPageLoads()[pri:1, instance:SpotifyDownloadPageTest@393671df]" started-at="2026-04-08T16:47:22 EDT" name="testDownloadPageLoads" finished-at="2026-04-08T16:47:29 EDT" duration-ms="7143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownloadPageLoads -->
-        <test-method signature="testDownloadPageURL()[pri:2, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:08 EDT" name="testDownloadPageURL" finished-at="2026-04-07T22:03:12 EDT" duration-ms="3808" status="PASS">
+        <test-method signature="testDownloadPageURL()[pri:2, instance:SpotifyDownloadPageTest@393671df]" started-at="2026-04-08T16:47:29 EDT" name="testDownloadPageURL" finished-at="2026-04-08T16:47:32 EDT" duration-ms="2537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownloadPageURL -->
-        <test-method signature="testDownloadPageContainsMac()[pri:3, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:12 EDT" name="testDownloadPageContainsMac" finished-at="2026-04-07T22:03:15 EDT" duration-ms="2654" status="PASS">
+        <test-method signature="testDownloadPageContainsMac()[pri:3, instance:SpotifyDownloadPageTest@393671df]" started-at="2026-04-08T16:47:32 EDT" name="testDownloadPageContainsMac" finished-at="2026-04-08T16:47:34 EDT" duration-ms="2528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownloadPageContainsMac -->
-        <test-method signature="testDownloadPageContainsMobile()[pri:4, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:15 EDT" name="testDownloadPageContainsMobile" finished-at="2026-04-07T22:03:17 EDT" duration-ms="2615" status="PASS">
+        <test-method signature="testDownloadPageContainsMobile()[pri:4, instance:SpotifyDownloadPageTest@393671df]" started-at="2026-04-08T16:47:34 EDT" name="testDownloadPageContainsMobile" finished-at="2026-04-08T16:47:45 EDT" duration-ms="11274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownloadPageContainsMobile -->
-        <test-method signature="testDownloadPageHasLinks()[pri:5, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:17 EDT" name="testDownloadPageHasLinks" finished-at="2026-04-07T22:03:20 EDT" duration-ms="2634" status="PASS">
+        <test-method signature="testDownloadPageHasLinks()[pri:5, instance:SpotifyDownloadPageTest@393671df]" started-at="2026-04-08T16:47:45 EDT" name="testDownloadPageHasLinks" finished-at="2026-04-08T16:47:48 EDT" duration-ms="2612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownloadPageHasLinks -->
-        <test-method signature="testDownloadPageIsHTTPS()[pri:6, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:20 EDT" name="testDownloadPageIsHTTPS" finished-at="2026-04-07T22:03:22 EDT" duration-ms="2657" status="PASS">
+        <test-method signature="testDownloadPageIsHTTPS()[pri:6, instance:SpotifyDownloadPageTest@393671df]" started-at="2026-04-08T16:47:48 EDT" name="testDownloadPageIsHTTPS" finished-at="2026-04-08T16:47:51 EDT" duration-ms="2624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownloadPageIsHTTPS -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyDownloadPageTest@20ce78ec]" started-at="2026-04-07T22:03:22 EDT" name="tearDown" finished-at="2026-04-07T22:03:33 EDT" duration-ms="10113" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyDownloadPageTest@393671df]" started-at="2026-04-08T16:47:51 EDT" name="tearDown" finished-at="2026-04-08T16:47:58 EDT" duration-ms="6950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpotifyDownloadPageTest -->
     </test> <!-- Gabriella - Download Page Tests -->
-    <test started-at="2026-04-07T22:03:33 EDT" name="Gabriella - Accessibility Tests" finished-at="2026-04-07T22:03:45 EDT" duration-ms="12366">
+    <test started-at="2026-04-08T16:47:58 EDT" name="Gabriella - Accessibility Tests" finished-at="2026-04-08T16:48:16 EDT" duration-ms="17992">
       <class name="SpotifyAccessibilityTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:33 EDT" name="setup" finished-at="2026-04-07T22:03:33 EDT" duration-ms="724" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SpotifyAccessibilityTest@43195e57]" started-at="2026-04-08T16:47:58 EDT" name="setup" finished-at="2026-04-08T16:47:58 EDT" duration-ms="686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testHomePageResponse200()[pri:1, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:33 EDT" name="testHomePageResponse200" finished-at="2026-04-07T22:03:34 EDT" duration-ms="688" status="PASS">
+        <test-method signature="testHomePageResponse200()[pri:1, instance:SpotifyAccessibilityTest@43195e57]" started-at="2026-04-08T16:47:58 EDT" name="testHomePageResponse200" finished-at="2026-04-08T16:47:59 EDT" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageResponse200 -->
-        <test-method signature="testPremiumPageResponse200()[pri:2, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:34 EDT" name="testPremiumPageResponse200" finished-at="2026-04-07T22:03:35 EDT" duration-ms="564" status="PASS">
+        <test-method signature="testPremiumPageResponse200()[pri:2, instance:SpotifyAccessibilityTest@43195e57]" started-at="2026-04-08T16:47:59 EDT" name="testPremiumPageResponse200" finished-at="2026-04-08T16:47:59 EDT" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPremiumPageResponse200 -->
-        <test-method signature="testDownloadPageResponse200()[pri:3, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:35 EDT" name="testDownloadPageResponse200" finished-at="2026-04-07T22:03:36 EDT" duration-ms="1007" status="PASS">
+        <test-method signature="testDownloadPageResponse200()[pri:3, instance:SpotifyAccessibilityTest@43195e57]" started-at="2026-04-08T16:47:59 EDT" name="testDownloadPageResponse200" finished-at="2026-04-08T16:48:00 EDT" duration-ms="745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownloadPageResponse200 -->
-        <test-method signature="testPageTitleExists()[pri:4, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:36 EDT" name="testPageTitleExists" finished-at="2026-04-07T22:03:40 EDT" duration-ms="3992" status="PASS">
+        <test-method signature="testPageTitleExists()[pri:4, instance:SpotifyAccessibilityTest@43195e57]" started-at="2026-04-08T16:48:00 EDT" name="testPageTitleExists" finished-at="2026-04-08T16:48:10 EDT" duration-ms="9943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageTitleExists -->
-        <test-method signature="testURLisHTTPS()[pri:5, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:40 EDT" name="testURLisHTTPS" finished-at="2026-04-07T22:03:42 EDT" duration-ms="2608" status="PASS">
+        <test-method signature="testURLisHTTPS()[pri:5, instance:SpotifyAccessibilityTest@43195e57]" started-at="2026-04-08T16:48:10 EDT" name="testURLisHTTPS" finished-at="2026-04-08T16:48:13 EDT" duration-ms="2879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testURLisHTTPS -->
-        <test-method signature="testBodyContentExists()[pri:6, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:42 EDT" name="testBodyContentExists" finished-at="2026-04-07T22:03:45 EDT" duration-ms="2629" status="PASS">
+        <test-method signature="testBodyContentExists()[pri:6, instance:SpotifyAccessibilityTest@43195e57]" started-at="2026-04-08T16:48:13 EDT" name="testBodyContentExists" finished-at="2026-04-08T16:48:16 EDT" duration-ms="2678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBodyContentExists -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyAccessibilityTest@1ab3a8c8]" started-at="2026-04-07T22:03:45 EDT" name="tearDown" finished-at="2026-04-07T22:03:45 EDT" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SpotifyAccessibilityTest@43195e57]" started-at="2026-04-08T16:48:16 EDT" name="tearDown" finished-at="2026-04-08T16:48:16 EDT" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,6 +1,7 @@
 SpotifyNavigationTest.class
 SpotifyPremiumPageTest.class
 SpotifySearchTest.class
+SpotifyLoginHelper.class
 SpotifyHomePageTest.class
 SpotifyLoginPageTest.class
 SpotifyDownloadPageTest.class
