@@ -1,51 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Spotify Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="Ishita - Home Page Tests(failed)" verbose="0">
-    <classes>
-      <class name="SpotifyHomePageTest">
-        <methods>
-          <include name="testHomePageLoadsAfterLogin"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testScrollDownHomepage"/>
-          <include name="testClickMusicTab"/>
-          <include name="testScrollBackToTop"/>
-          <include name="testCreatePlaylistButtonVisible"/>
-          <include name="testClickPodcastsTab"/>
-        </methods>
-      </class> <!-- SpotifyHomePageTest -->
-    </classes>
-  </test> <!-- Ishita - Home Page Tests(failed) -->
-  <test thread-count="5" name="Ishita - Search Tests(failed)" verbose="0">
-    <classes>
-      <class name="SpotifySearchTest">
-        <methods>
-          <include name="testSearchPageIsHTTPS"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="testSearchPageLoads"/>
-          <include name="testClearSearchAndSearchAgain"/>
-          <include name="testSearchResultsHaveContent"/>
-          <include name="testSearchForDrake"/>
-          <include name="testSearchForHonestlyNevermind"/>
-        </methods>
-      </class> <!-- SpotifySearchTest -->
-    </classes>
-  </test> <!-- Ishita - Search Tests(failed) -->
-  <test thread-count="5" name="Ishita - Login Page Tests(failed)" verbose="0">
-    <classes>
-      <class name="SpotifyLoginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testEmailFieldAndContinue"/>
-          <include name="testClickContinueAndLoginWithPassword"/>
-          <include name="testFullLoginFlow"/>
-        </methods>
-      </class> <!-- SpotifyLoginPageTest -->
-    </classes>
-  </test> <!-- Ishita - Login Page Tests(failed) -->
   <test thread-count="5" name="Gabriella - Navigation Tests(failed)" verbose="0">
     <classes>
       <class name="SpotifyNavigationTest">
@@ -57,4 +12,15 @@
       </class> <!-- SpotifyNavigationTest -->
     </classes>
   </test> <!-- Gabriella - Navigation Tests(failed) -->
+  <test thread-count="5" name="Gabriella - Download Page Tests(failed)" verbose="0">
+    <classes>
+      <class name="SpotifyDownloadPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testDirectDownloadLink"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SpotifyDownloadPageTest -->
+    </classes>
+  </test> <!-- Gabriella - Download Page Tests(failed) -->
 </suite> <!-- Failed suite [Spotify Test Suite] -->

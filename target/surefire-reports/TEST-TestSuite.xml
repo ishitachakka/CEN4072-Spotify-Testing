@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="492.847" tests="52" errors="0" skipped="14" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="390.326" tests="47" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="surefire.suiteXmlFiles" value="testng.xml"/>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="/Users/ishitachakkalakkal/Documents/Software Testing/SeleniumDrivers/chromedriver"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@21/21.0.10/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/surefire/surefirebooter-20260408164003456_3.jar /Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/surefire 2026-04-08T16-40-03_413-jvmRun1 surefire-20260408164003456_1tmp surefire_0-20260408164003456_2tmp"/>
+    <property name="sun.java.command" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/surefire/surefirebooter-20260409003253347_3.jar /Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/surefire 2026-04-09T00-32-53_301-jvmRun1 surefire-20260409003253347_1tmp surefire_0-20260409003253347_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/test-classes:/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/classes:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ishitachakkalakkal/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/Users/ishitachakkalakkal/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/Users/ishitachakkalakkal/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/Users/ishitachakkalakkal/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/ishitachakkalakkal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ishitachakkalakkal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ishitachakkalakkal/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
@@ -31,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/surefire/surefirebooter-20260408164003456_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ishitachakkalakkal/Documents/Software Testing/CEN4072-Spotify-Testing/target/surefire/surefirebooter-20260409003253347_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.10"/>
@@ -60,488 +61,271 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="setUp" classname="SpotifyHomePageTest" time="22.707">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0ba25e12415ab433185fbd67be2e2e16" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0ba25e12415ab433185fbd67be2e2e16
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at SpotifyHomePageTest.loginToSpotify(SpotifyHomePageTest.java:30)
-	at SpotifyHomePageTest.setUp(SpotifyHomePageTest.java:23)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="testClickMusicAndScroll" classname="SpotifyHomePageTest" time="5.134">
+    <system-out><![CDATA[Loaded 7 cookies
+After cookie load — URL: https://open.spotify.com/
+TEST 1: Clicking Music tab...
+TEST 1: On Music — https://open.spotify.com/home?facet=music-chip
+TEST 1: Scrolling through music content...
+  Scrolled through 0 cards
+TEST 1: Done scrolling music
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Apr 08, 2026 4:40:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 09, 2026 12:32:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 08, 2026 4:40:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 09, 2026 12:32:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testHomePageLoadsAfterLogin" classname="SpotifyHomePageTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0ba25e12415ab433185fbd67be2e2e16"/>
+  <testcase name="testClickPodcastsAndScroll" classname="SpotifyHomePageTest" time="5.123">
+    <system-out><![CDATA[TEST 2: Clicking Podcasts tab...
+TEST 2: On Podcasts — https://open.spotify.com/home?facet=podcasts-chip
+TEST 2: Scrolling through podcast content...
+  Scrolled through 0 cards
+TEST 2: Done scrolling podcasts
+]]></system-out>
   </testcase>
-  <testcase name="testScrollDownHomepage" classname="SpotifyHomePageTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0ba25e12415ab433185fbd67be2e2e16"/>
+  <testcase name="testClickAudiobooksAndScroll" classname="SpotifyHomePageTest" time="5.111">
+    <system-out><![CDATA[TEST 3: Clicking Audiobooks tab...
+TEST 3: On Audiobooks — https://open.spotify.com/home?facet=audiobooks-chip
+TEST 3: Scrolling through audiobooks content...
+  Scrolled through 0 cards
+TEST 3: Done scrolling audiobooks
+]]></system-out>
   </testcase>
-  <testcase name="testClickMusicTab" classname="SpotifyHomePageTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0ba25e12415ab433185fbd67be2e2e16"/>
+  <testcase name="testGoBackToMusicAndClickFollowing" classname="SpotifyHomePageTest" time="6.199">
+    <system-out><![CDATA[TEST 4: Going back to Music tab...
+TEST 4: Back on Music — https://open.spotify.com/home?facet=music-chip
+TEST 4: Clicking Following tab...
+TEST 4: On Following — https://open.spotify.com/home?facet=music-following-chip
+]]></system-out>
   </testcase>
-  <testcase name="testClickPodcastsTab" classname="SpotifyHomePageTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0ba25e12415ab433185fbd67be2e2e16"/>
+  <testcase name="testClickBrowseArtistsAndScroll" classname="SpotifyHomePageTest" time="5.104">
+    <system-out><![CDATA[TEST 5: Looking for Browse artists button...
+TEST 5: Clicked Browse artists — https://open.spotify.com/genre/0JQ5DAqbMKFSi39LMRT0Cy
+  Scrolled through 0 cards
+TEST 5: Scrolled through artists
+]]></system-out>
   </testcase>
-  <testcase name="testCreatePlaylistButtonVisible" classname="SpotifyHomePageTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0ba25e12415ab433185fbd67be2e2e16"/>
+  <testcase name="testHomePageIsHTTPS" classname="SpotifyHomePageTest" time="3.552">
+    <system-out><![CDATA[TEST 6: URL = https://open.spotify.com/
+]]></system-out>
   </testcase>
-  <testcase name="testScrollBackToTop" classname="SpotifyHomePageTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51613}, goog:processID: 63311, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51613/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0ba25e12415ab433185fbd67be2e2e16"/>
-  </testcase>
-  <testcase name="tearDown" classname="SpotifyHomePageTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="SpotifySearchTest" time="24.129">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09211e50c0ab19f1925e4d431cf00fc4" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 09211e50c0ab19f1925e4d431cf00fc4
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at SpotifySearchTest.loginToSpotify(SpotifySearchTest.java:29)
-	at SpotifySearchTest.setUp(SpotifySearchTest.java:23)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-err><![CDATA[Apr 08, 2026 4:40:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testSearchDrake" classname="SpotifySearchTest" time="10.939">
+    <system-out><![CDATA[Loaded 7 cookies
+After cookie load — URL: https://open.spotify.com/
+TEST 1: Searched Drake — URL: https://open.spotify.com/search/Drake
+]]></system-out>
+    <system-err><![CDATA[Apr 09, 2026 12:33:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 08, 2026 4:40:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 09, 2026 12:33:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testSearchPageLoads" classname="SpotifySearchTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09211e50c0ab19f1925e4d431cf00fc4"/>
+  <testcase name="testOpenDrakeAlbum" classname="SpotifySearchTest" time="4.494">
+    <system-out><![CDATA[TEST 2: Album page title = $ome $exy $ongs 4 U - Album by PARTYNEXTDOOR, Drake | Spotify
+]]></system-out>
   </testcase>
-  <testcase name="testSearchForDrake" classname="SpotifySearchTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09211e50c0ab19f1925e4d431cf00fc4"/>
+  <testcase name="testLikeFirstSong" classname="SpotifySearchTest" time="9.056">
+    <system-out><![CDATA[TEST 3: Right clicked first song
+TEST 3: Saved to Liked Songs!
+]]></system-out>
   </testcase>
-  <testcase name="testSearchForHonestlyNevermind" classname="SpotifySearchTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09211e50c0ab19f1925e4d431cf00fc4"/>
+  <testcase name="testAddSongToPlaylistViaMenu" classname="SpotifySearchTest" time="12.863">
+    <system-out><![CDATA[TEST 4: Clicked ... menu
+TEST 4: Added song to My Playlist #2!
+]]></system-out>
   </testcase>
-  <testcase name="testSearchResultsHaveContent" classname="SpotifySearchTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09211e50c0ab19f1925e4d431cf00fc4"/>
+  <testcase name="testSearchHonestlyNevermind" classname="SpotifySearchTest" time="10.785">
+    <system-out><![CDATA[TEST 5: Searched Honestly Nevermind — URL: https://open.spotify.com/search/Honestly%20Nevermind
+]]></system-out>
   </testcase>
-  <testcase name="testClearSearchAndSearchAgain" classname="SpotifySearchTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09211e50c0ab19f1925e4d431cf00fc4"/>
+  <testcase name="testAddHonestlyNevermindSongToPlaylist" classname="SpotifySearchTest" time="18.36">
+    <system-out><![CDATA[TEST 6: Clicked Albums tab
+TEST 6: Opened album — https://open.spotify.com/album/3cf4iSSKd8ffTncbtKljXw
+TEST 6: Added Honestly Nevermind song to playlist!
+]]></system-out>
   </testcase>
-  <testcase name="testSearchPageIsHTTPS" classname="SpotifySearchTest" time="0.0">
-    <skipped message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51746}, goog:processID: 63419, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51746/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09211e50c0ab19f1925e4d431cf00fc4"/>
-  </testcase>
-  <testcase name="tearDown" classname="SpotifySearchTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testLoginPageLoads" classname="SpotifyLoginPageTest" time="6.07">
+  <testcase name="testLoginPageLoads" classname="SpotifyLoginPageTest" time="5.318">
     <system-out><![CDATA[TEST 1: Login page title = Spotify
 ]]></system-out>
-    <system-err><![CDATA[Apr 08, 2026 4:40:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 09, 2026 12:35:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 08, 2026 4:40:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 09, 2026 12:35:01 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testLoginPageURL" classname="SpotifyLoginPageTest" time="2.505">
-    <system-out><![CDATA[TEST 2: Login URL = https://accounts.spotify.com/en/login
+  <testcase name="testLoginPageURLIsHTTPS" classname="SpotifyLoginPageTest" time="2.212">
+    <system-out><![CDATA[TEST 2: URL = https://accounts.spotify.com/en/login
 ]]></system-out>
   </testcase>
-  <testcase name="testEmailFieldAndContinue" classname="SpotifyLoginPageTest" time="18.351">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 27b4866905fc9f07012c45b592aedc84" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 27b4866905fc9f07012c45b592aedc84
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at SpotifyLoginPageTest.testEmailFieldAndContinue(SpotifyLoginPageTest.java:52)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="testClickContinueAndLoginWithPassword" classname="SpotifyLoginPageTest" time="18.348">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 27b4866905fc9f07012c45b592aedc84" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 27b4866905fc9f07012c45b592aedc84
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at SpotifyLoginPageTest.testClickContinueAndLoginWithPassword(SpotifyLoginPageTest.java:66)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="testFullLoginFlow" classname="SpotifyLoginPageTest" time="19.113">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 27b4866905fc9f07012c45b592aedc84" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.id: login-username (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51892}, goog:processID: 63522, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51892/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 27b4866905fc9f07012c45b592aedc84
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at SpotifyLoginPageTest.testFullLoginFlow(SpotifyLoginPageTest.java:89)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="testLoginPageIsHTTPS" classname="SpotifyLoginPageTest" time="4.559">
-    <system-out><![CDATA[TEST 6: Login page is HTTPS
+  <testcase name="testEmailFieldHighlightedAndFilled" classname="SpotifyLoginPageTest" time="9.986">
+    <system-out><![CDATA[TEST 3: Email typed = ijchakkalakkal8062@eagle.fgcu.edu
 ]]></system-out>
   </testcase>
-  <testcase name="testSignupPageLoads" classname="SpotifySignupPageTest" time="29.907">
-    <system-out><![CDATA[TEST 1: Signup title = Sign up - Spotify
+  <testcase name="testEmailContinueAndPasswordField" classname="SpotifyLoginPageTest" time="18.813">
+    <system-out><![CDATA[TEST 4: Password field visible = true
 ]]></system-out>
-    <system-err><![CDATA[Apr 08, 2026 4:42:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  </testcase>
+  <testcase name="testFullLoginAndVerifyHomepage" classname="SpotifyLoginPageTest" time="27.651">
+    <system-out><![CDATA[TEST 5: After login URL = https://challenge.spotify.com/c/1671f550-6bc3-42ae-8895-1536db95e0bf-5/1c8e413a-6d1b-46ce-915e-e4830c6677aa/recaptcha?flow_ctx=a1c01cbc-9a5e-4d7b-b9e2-610f6670b85d%3A1775730958
+]]></system-out>
+  </testcase>
+  <testcase name="testVerifyLoggedInWithCookies" classname="SpotifyLoginPageTest" time="10.729">
+    <system-out><![CDATA[Loaded 7 cookies
+After cookie load — URL: https://open.spotify.com/
+TEST 6: Logged in URL = https://open.spotify.com/
+]]></system-out>
+  </testcase>
+  <testcase name="testSignupPageLoads" classname="SpotifySignupPageTest" time="7.285">
+    <system-out><![CDATA[TEST 1: Signup page title = Sign up - Spotify
+]]></system-out>
+    <system-err><![CDATA[Apr 09, 2026 12:36:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 08, 2026 4:42:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 09, 2026 12:36:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testSignupPageURL" classname="SpotifySignupPageTest" time="3.626">
-    <system-out><![CDATA[TEST 2: Signup URL = https://www.spotify.com/us/signup
+  <testcase name="testInvalidEmailFormatShowsError" classname="SpotifySignupPageTest" time="11.739">
+    <system-out><![CDATA[TEST 2: Typing invalid email format...
+TEST 2: Invalid format error shown = true
 ]]></system-out>
   </testcase>
-  <testcase name="testEmailFieldAcceptsInput" classname="SpotifySignupPageTest" time="5.843">
-    <system-out><![CDATA[TEST 3: Email field accepted input
+  <testcase name="testExistingEmailShowsError" classname="SpotifySignupPageTest" time="14.884">
+    <system-out><![CDATA[TEST 3: Typing existing school email...
+TEST 3: Existing email error detected = true
 ]]></system-out>
   </testcase>
-  <testcase name="testScrollDownSignupForm" classname="SpotifySignupPageTest" time="6.46">
-    <system-out><![CDATA[TEST 4: Scrolled signup form to Y = 81
+  <testcase name="testValidEmailAcceptedAndFormLoads" classname="SpotifySignupPageTest" time="16.496">
+    <system-out><![CDATA[TEST 4: Typing valid new email...
+TEST 4: Next step loaded = true
 ]]></system-out>
   </testcase>
-  <testcase name="testSignupPageIsHTTPS" classname="SpotifySignupPageTest" time="2.725">
-    <system-out><![CDATA[TEST 5: Signup page is HTTPS
+  <testcase name="testSignupPageIsHTTPS" classname="SpotifySignupPageTest" time="2.287">
+    <system-out><![CDATA[TEST 5: URL = https://www.spotify.com/us/signup
 ]]></system-out>
   </testcase>
-  <testcase name="testSignupTitleContainsSpotify" classname="SpotifySignupPageTest" time="3.432">
-    <system-out><![CDATA[TEST 6: Signup title contains Spotify — Sign up - Spotify
+  <testcase name="testSignupTitleContainsSpotify" classname="SpotifySignupPageTest" time="3.268">
+    <system-out><![CDATA[TEST 6: Title = Sign up - Spotify
 ]]></system-out>
   </testcase>
-  <testcase name="testHomeNavigation" classname="SpotifyNavigationTest" time="131.761">
-    <system-out><![CDATA[TEST 1: Home page title contains Spotify
+  <testcase name="testHomeNavigation" classname="SpotifyNavigationTest" time="4.394">
+    <system-out><![CDATA[TEST 1: Home page title = Spotify - Web Player: Music for everyone
 ]]></system-out>
-    <system-err><![CDATA[Apr 08, 2026 4:42:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 09, 2026 12:37:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 08, 2026 4:42:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 09, 2026 12:37:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testPremiumNavigation" classname="SpotifyNavigationTest" time="37.932">
-    <system-out><![CDATA[TEST 2: Premium page URL confirmed: https://www.spotify.com/us/premium/
+  <testcase name="testPremiumJourney" classname="SpotifyNavigationTest" time="7.064">
+    <system-out><![CDATA[Clicked: Premium
+TEST 2: Premium URL = https://www.spotify.com/us/premium/
 ]]></system-out>
   </testcase>
-  <testcase name="testSupportNavigation" classname="SpotifyNavigationTest" time="8.342">
-    <system-out><![CDATA[TEST 3: Support page URL confirmed: https://support.spotify.com/us/
+  <testcase name="testDownloadJourney" classname="SpotifyNavigationTest" time="6.963">
+    <system-out><![CDATA[Clicked: Download
+TEST 3: Download URL = https://open.spotify.com/
 ]]></system-out>
   </testcase>
-  <testcase name="testDownloadNavigation" classname="SpotifyNavigationTest" time="30.033">
-    <system-out><![CDATA[TEST 4: Download page URL confirmed: https://www.spotify.com/us/download/mac/
+  <testcase name="testSupportJourney" classname="SpotifyNavigationTest" time="10.972">
+    <system-out><![CDATA[Clicked: Support
+Switched to new window/tab
+Switched to new window/tab
+TEST 4: Support URL = https://support.spotify.com/us/
 ]]></system-out>
   </testcase>
-  <testcase name="testFooterExists" classname="SpotifyNavigationTest" time="20.024">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;footer&quot;}&#10;  (Session info: chrome=146.0.7680.178)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6a89cac6c4774e8184b8d27c5b7cf812, findElement {using=tag name, value=footer}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52576}, goog:processID: 63985, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52576/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6a89cac6c4774e8184b8d27c5b7cf812" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"tag name","selector":"footer"}
-  (Session info: chrome=146.0.7680.178)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a89cac6c4774e8184b8d27c5b7cf812, findElement {using=tag name, value=footer}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.164 (bbd8c5dd25f..., userDataDir: /var/folders/8q/6th9_nqx2z7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52576}, goog:processID: 63985, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52576/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6a89cac6c4774e8184b8d27c5b7cf812
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at SpotifyNavigationTest.testFooterExists(SpotifyNavigationTest.java:69)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="testAllPagesLoadOverHTTPS" classname="SpotifyNavigationTest" time="3.647">
-    <system-out><![CDATA[TEST 6: Premium page loads over HTTPS
+  <testcase name="testLogoHomeRedirect" classname="SpotifyNavigationTest" time="5.521">
+    <system-out><![CDATA[TEST 5: After logo click URL = https://www.spotify.com/us/premium/#start-of-content
 ]]></system-out>
   </testcase>
-  <testcase name="testPremiumPageLoads" classname="SpotifyPremiumPageTest" time="6.811">
-    <system-out><![CDATA[TEST 1: Premium page title: Spotify Premium - Spotify (USA)
+  <testcase name="testFooterExists" classname="SpotifyNavigationTest" time="5.493">
+    <system-out><![CDATA[TEST 6: Footer visible and highlighted
 ]]></system-out>
-    <system-err><![CDATA[Apr 08, 2026 4:46:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  </testcase>
+  <testcase name="testPageLoadAndHeading" classname="SpotifyPremiumPageTest" time="5.142">
+    <system-out><![CDATA[TEST 1: Heading found and highlighted yellow
+]]></system-out>
+    <system-err><![CDATA[Apr 09, 2026 12:37:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 08, 2026 4:46:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 09, 2026 12:37:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testPremiumPageURL" classname="SpotifyPremiumPageTest" time="3.457">
-    <system-out><![CDATA[TEST 2: Premium URL confirmed: https://www.spotify.com/us/premium/
+  <testcase name="testPremiumContentPresence" classname="SpotifyPremiumPageTest" time="4.51">
+    <system-out><![CDATA[TEST 2: Premium content verified on page
 ]]></system-out>
   </testcase>
-  <testcase name="testPremiumPageContainsPremiumText" classname="SpotifyPremiumPageTest" time="3.235">
-    <system-out><![CDATA[TEST 3: Premium text found on page
+  <testcase name="testPremiumPageContainsIndividualPlan" classname="SpotifyPremiumPageTest" time="2.46">
+    <system-out><![CDATA[TEST 3: Individual plan found on premium page
 ]]></system-out>
   </testcase>
-  <testcase name="testPremiumPageContainsIndividualPlan" classname="SpotifyPremiumPageTest" time="2.801">
-    <system-out><![CDATA[TEST 4: Individual plan found on premium page
+  <testcase name="testScrollToFooter" classname="SpotifyPremiumPageTest" time="5.985">
+    <system-out><![CDATA[TEST 4: Scrolled to footer and highlighted green
 ]]></system-out>
   </testcase>
-  <testcase name="testPremiumPageButtonPresent" classname="SpotifyPremiumPageTest" time="3.076">
-    <system-out><![CDATA[TEST 5: Button visible on premium page
+  <testcase name="testSupportLinkHighlighted" classname="SpotifyPremiumPageTest" time="5.538">
+    <system-out><![CDATA[TEST 5: Support link highlighted cyan
 ]]></system-out>
   </testcase>
-  <testcase name="testPremiumPageIsHTTPS" classname="SpotifyPremiumPageTest" time="3.92">
-    <system-out><![CDATA[TEST 6: Premium page loads over HTTPS
+  <testcase name="testLoginButtonHighlightedAndClickable" classname="SpotifyPremiumPageTest" time="7.295">
+    <system-out><![CDATA[TEST 6: Login button highlighted yellow — clicking
 ]]></system-out>
   </testcase>
-  <testcase name="testDownloadPageLoads" classname="SpotifyDownloadPageTest" time="7.143">
-    <system-out><![CDATA[TEST 1: Download page title: Mac download - Spotify
+  <testcase name="testDownloadPageNavigation" classname="SpotifyDownloadPageTest" time="3.061">
+    <system-out><![CDATA[TEST 1: Download page successfully loaded — Mac download - Spotify
 ]]></system-out>
-    <system-err><![CDATA[Apr 08, 2026 4:47:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 09, 2026 12:38:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 08, 2026 4:47:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 09, 2026 12:38:33 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testDownloadPageURL" classname="SpotifyDownloadPageTest" time="2.537">
-    <system-out><![CDATA[TEST 2: Download URL confirmed: https://www.spotify.com/us/download/mac/
+  <testcase name="testHighlightMicrosoftStoreButton" classname="SpotifyDownloadPageTest" time="3.563">
+    <system-out><![CDATA[TEST 2: Microsoft Store button highlighted cyan
 ]]></system-out>
   </testcase>
-  <testcase name="testDownloadPageContainsMac" classname="SpotifyDownloadPageTest" time="2.529">
-    <system-out><![CDATA[TEST 3: Mac download option found
+  <testcase name="testDirectDownloadLink" classname="SpotifyDownloadPageTest" time="6.178">
+    <system-out><![CDATA[TEST 3: Download link found and highlighted pink
 ]]></system-out>
   </testcase>
-  <testcase name="testDownloadPageContainsMobile" classname="SpotifyDownloadPageTest" time="11.273">
-    <system-out><![CDATA[TEST 4: Mobile download option found
+  <testcase name="testLoginLinkInteractivity" classname="SpotifyDownloadPageTest" time="3.048">
+    <system-out><![CDATA[TEST 4: Log in link highlighted yellow
 ]]></system-out>
   </testcase>
-  <testcase name="testDownloadPageHasLinks" classname="SpotifyDownloadPageTest" time="2.612">
-    <system-out><![CDATA[TEST 5: Links found on download page
+  <testcase name="testDownloadPageContainsMac" classname="SpotifyDownloadPageTest" time="2.607">
+    <system-out><![CDATA[TEST 5: Mac download option confirmed
 ]]></system-out>
   </testcase>
-  <testcase name="testDownloadPageIsHTTPS" classname="SpotifyDownloadPageTest" time="2.625">
-    <system-out><![CDATA[TEST 6: Download page loads over HTTPS
+  <testcase name="testHeaderBrandingIntegrity" classname="SpotifyDownloadPageTest" time="2.54">
+    <system-out><![CDATA[TEST 6: Spotify logo/branding confirmed
 ]]></system-out>
   </testcase>
-  <testcase name="testHomePageResponse200" classname="SpotifyAccessibilityTest" time="0.614">
-    <system-out><![CDATA[TEST 1: Homepage response code: 200
+  <testcase name="testHomePageResponse200" classname="SpotifyAccessibilityTest" time="0.663">
+    <system-out><![CDATA[TEST 1: Homepage response code = 200
 ]]></system-out>
-    <system-err><![CDATA[Apr 08, 2026 4:47:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 09, 2026 12:39:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 08, 2026 4:47:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 09, 2026 12:39:07 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testPremiumPageResponse200" classname="SpotifyAccessibilityTest" time="0.329">
-    <system-out><![CDATA[TEST 2: Premium page response code: 200
+  <testcase name="testPremiumPageResponse200" classname="SpotifyAccessibilityTest" time="0.532">
+    <system-out><![CDATA[TEST 2: Premium page response code = 200
 ]]></system-out>
   </testcase>
-  <testcase name="testDownloadPageResponse200" classname="SpotifyAccessibilityTest" time="0.749">
-    <system-out><![CDATA[TEST 3: Download page response code: 200
+  <testcase name="testDownloadPageResponse200" classname="SpotifyAccessibilityTest" time="0.956">
+    <system-out><![CDATA[TEST 3: Download page response code = 200
 ]]></system-out>
   </testcase>
-  <testcase name="testPageTitleExists" classname="SpotifyAccessibilityTest" time="9.942">
-    <system-out><![CDATA[TEST 4: Page title exists: Spotify - Web Player: Music for everyone
+  <testcase name="testPageHeaderVisibility" classname="SpotifyAccessibilityTest" time="6.165">
+    <system-out><![CDATA[TEST 4: Header is visible and highlighted purple
 ]]></system-out>
   </testcase>
-  <testcase name="testURLisHTTPS" classname="SpotifyAccessibilityTest" time="2.88">
-    <system-out><![CDATA[TEST 5: URL is HTTPS: https://open.spotify.com/
-]]></system-out>
-  </testcase>
-  <testcase name="testBodyContentExists" classname="SpotifyAccessibilityTest" time="2.678">
-    <system-out><![CDATA[TEST 6: Page body has content, length: 2541
+  <testcase name="testFooterIntegrity" classname="SpotifyAccessibilityTest" time="5.505">
+    <system-out><![CDATA[TEST 5: Footer found and highlighted orange
 ]]></system-out>
   </testcase>
 </testsuite>

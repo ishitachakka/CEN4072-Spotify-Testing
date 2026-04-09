@@ -1,7 +1,7 @@
-sp_gaid||0088fc4e478e1daf1d5f322d0ced963791638ce62ffdd7e701faa6||.spotify.com||/||1780866939000
-sp_landing||https%3A%2F%2Fopen.spotify.com%2F||.spotify.com||/||1775769282000
-sp_t||6369ec34-6bc3-455d-a2e1-910fbc853159||.spotify.com||/||1807218939000
-sp_key||c9a5babd-3d2a-4822-b7c0-c095d51c2476||.spotify.com||/||1807218939000
-sp_dc||AQDRDhco3aGPHtt-H6AhFiOuz06Dfhrt-DpaPBdlXmIksWBbf4sj7fo4BCxO99faZckdDELQjKQws_NWwcm50E1-z3I9RazgEdL8rsYmSCWT9pnlBOCqe6ymLc00QYMLsafc5MLpNtQ1JITx3sy1VImytxL7y2jHLJTJ4THE85kdcVysRAzVyz6s6nNVQyBBGbLCEmAdtHRBna1M47s||.spotify.com||/||1807218939000
-sp_new||1||.spotify.com||/||1775769282000
-OptanonConsent||isGpcEnabled=0&datestamp=Wed+Apr+08+2026+17%3A15%3A42+GMT-0400+(Eastern+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fopen.spotify.com%2F&groups=BG169%3A1%2Ct00%3A1%2Ct02%3A1%2Ci00%3A1%2CBG221%3A0%2Cs00%3A1%2Cf00%3A0%2Cm00%3A0%2Cf11%3A0||.spotify.com||/||1807218942000
+sp_gaid||0088fc4e478e1daf1d5f322d0ced963791638ce62ffdd7e701faa6||.spotify.com||/||1780891102000
+sp_t||32717a9d-6ac8-4834-a34d-3524b94de1ef||.spotify.com||/||1807243102000
+sp_landing||https%3A%2F%2Fopen.spotify.com%2F||.spotify.com||/||1775793470000
+sp_dc||AQBx2NzKZcWpHamPgOXJlMUvUC-0OPTCPKfxqGp9-aTAfD2Okiig0BZ_VeU-fidF-tYR4is9fpBgoyIPPuqb_z5lKsukvuIvf_p6C1bZqhw-CGswoK4HE3Pp5U3NYg-iyapC3oh258RedtLky4EjzWRKh8ERfL_Q3P1catwmga9dIVx2i-q5xQn3tyDxQUZxlGWXzpRfPRQyCyInB7Q||.spotify.com||/||1807243102000
+sp_key||15d3391f-ec1e-4487-9800-fe03b168b535||.spotify.com||/||1807243102000
+sp_new||1||.spotify.com||/||1775793470000
+OptanonConsent||isGpcEnabled=0&datestamp=Wed+Apr+08+2026+23%3A58%3A23+GMT-0400+(Eastern+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fopen.spotify.com%2F&groups=BG169%3A1%2Ct00%3A1%2Ct02%3A1%2Ci00%3A1%2CBG221%3A0%2Cs00%3A1%2Cf00%3A0%2Cm00%3A0%2Cf11%3A0||.spotify.com||/||1807243103000
